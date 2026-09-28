@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "things-to-do",
+    "name": "Things To Do",
+    "color_slot": 2
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "color_slot": 1
+  },
+  {
+    "id": "movies",
+    "name": "Movies",
+    "color_slot": 3
+  },
+  {
+    "id": "city-events",
+    "name": "City Events",
+    "color_slot": 4
+  }
+]
