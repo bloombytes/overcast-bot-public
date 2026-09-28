@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tea4Tea Events</title>
-<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
-<body>
+<body class="landing-page">
   <nav class="site-nav">
-    <a class="brand" href="index.html">Tea4Tea Events</a>
+    <a class="brand" href="index.html">Tea4Tea</a>
     <div class="links">
       <a href="things-to-do.html">Things To Do</a>
       <a href="music.html">Music</a>
@@ -17,23 +17,58 @@
   </nav>
 
   <div class="landing">
+    <p class="eyebrow">Seattle events, kept fresh automatically</p>
     <h1>Tea4Tea Events</h1>
-    <p class="tagline">A calendar of what's happening around Seattle, picked out by hand and kept fresh automatically.</p>
+    <p class="tagline">A calendar of what's happening around the city, picked out by hand.</p>
 
     <div class="landing-cards">
       <a class="landing-card" href="things-to-do.html" style="--card-accent: var(--slot-2)">
-        <div class="card-title">Things To Do</div>
+        <div class="card-title"><span class="dot"></span>Things To Do</div>
         <div class="card-desc">Markets, art walks, workshops, and citywide events.</div>
+        <div class="card-count" data-category="things-to-do,city-events">Loading…</div>
       </a>
       <a class="landing-card" href="music.html" style="--card-accent: var(--slot-1)">
-        <div class="card-title">Music</div>
+        <div class="card-title"><span class="dot"></span>Music</div>
         <div class="card-desc">Live shows and DJ sets at venues around the city.</div>
+        <div class="card-count" data-category="music">Loading…</div>
       </a>
       <a class="landing-card" href="movies.html" style="--card-accent: var(--slot-3)">
-        <div class="card-title">Movies</div>
+        <div class="card-title"><span class="dot"></span>Movies</div>
         <div class="card-desc">What's screening at independent theaters this month.</div>
+        <div class="card-count" data-category="movies">Loading…</div>
       </a>
     </div>
+
+    <p class="landing-status" id="statusMsg"></p>
   </div>
+
+  <script>
+    (async function () {
+      try {
+        const resp = await fetch("events.json");
+        const { generated_at, events } = await resp.json();
+
+        const today = new Date();
+        const in7 = new Date(today.getTime() + 7 * 86400000);
+        const todayStr = today.toISOString().slice(0, 10);
+        const in7Str = in7.toISOString().slice(0, 10);
+        const thisWeek = events.filter(e => e.start_dt.slice(0, 10) >= todayStr && e.start_dt.slice(0, 10) < in7Str);
+
+        document.querySelectorAll(".card-count").forEach(el => {
+          const cats = el.dataset.category.split(",");
+          const n = thisWeek.filter(e => cats.includes(e.category_id)).length;
+          el.textContent = n === 0 ? "Nothing this week" : `${n} event${n === 1 ? "" : "s"} this week`;
+        });
+
+        if (generated_at) {
+          const d = new Date(generated_at);
+          document.getElementById("statusMsg").textContent =
+            "Updated " + d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+        }
+      } catch (e) {
+        document.querySelectorAll(".card-count").forEach(el => { el.textContent = ""; });
+      }
+    })();
+  </script>
 </body>
 </html>
