@@ -395,3 +395,91 @@ body {
   .status-msg { display: none; }
   .overlay { padding: 8px; }
 }
+
+/* Site nav -- shared thin header bar on every calendar page */
+.site-nav {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 14px 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+.site-nav .brand {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.site-nav .links {
+  display: flex;
+  gap: 4px;
+}
+.site-nav .links a {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 7px;
+}
+.site-nav .links a:hover { background: var(--gridline); color: var(--text-primary); }
+.site-nav .links a.active {
+  color: var(--text-primary);
+  background: var(--gridline);
+  font-weight: 600;
+}
+
+/* Landing page */
+.landing {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 20px 60px;
+  text-align: center;
+}
+.landing h1 {
+  font-size: 1.9rem;
+  margin: 0 0 8px;
+}
+.landing .tagline {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin: 0 0 40px;
+}
+.landing-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  text-align: left;
+}
+.landing-card {
+  display: block;
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 22px 20px;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: transform 0.13s ease, box-shadow 0.13s ease;
+  border-top: 3px solid var(--card-accent, var(--accent));
+}
+.landing-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+.landing-card .card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.landing-card .card-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+@media (max-width: 640px) {
+  .site-nav { padding: 10px 12px 0; }
+  .landing { padding: 32px 16px 40px; }
+}

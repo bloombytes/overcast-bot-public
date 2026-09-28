@@ -39,18 +39,32 @@ function gridRange(monthStart) {
 
 // Static export instead of a live API: everything is fetched once at
 // startup (categories.json / venues.json / events.json, regenerated
-// periodically by scripts/export_static_site.py) and filtered client-side
-// from then on -- there's no backend here to ask for a date range.
+// periodically by app/publish.py in the private repo) and filtered
+// client-side from then on -- there's no backend here to ask for a date
+// range. window.CALENDAR_CATEGORIES (set by each page before this script
+// loads) scopes a page to just those categories -- e.g. movies.html only
+// ever sees movies, even though the export itself has everything.
 async function loadData() {
   const [catResp, venResp, evResp] = await Promise.all([
     fetch("categories.json"),
     fetch("venues.json"),
     fetch("events.json"),
   ]);
-  state.categories = await catResp.json();
-  state.venues = await venResp.json();
+  let categories = await catResp.json();
+  let venues = await venResp.json();
   const evPayload = await evResp.json();
-  state.allEvents = evPayload.events;
+  let events = evPayload.events;
+
+  const allowed = window.CALENDAR_CATEGORIES;
+  if (Array.isArray(allowed)) {
+    categories = categories.filter(c => allowed.includes(c.id));
+    venues = venues.filter(v => allowed.includes(v.category_id));
+    events = events.filter(e => allowed.includes(e.category_id));
+  }
+
+  state.categories = categories;
+  state.venues = venues;
+  state.allEvents = events;
   state.generatedAt = evPayload.generated_at;
   renderFilterPanel();
   renderStatus();
