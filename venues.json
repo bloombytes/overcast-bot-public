@@ -43,5 +43,10 @@
     "id": "visitseattle",
     "name": "Visit Seattle",
     "category_id": "city-events"
+  },
+  {
+    "id": "community-1",
+    "name": "PRESENTED By",
+    "category_id": "things-to-do"
   }
 ]
