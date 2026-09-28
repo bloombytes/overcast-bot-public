@@ -1,49 +1,48 @@
 const MONTH_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const MONTH_SHORT = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const DOW_SHORT = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const DOW_FULL = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+const TG_START_HOUR = 7;   // time-grid default window if no events give a tighter range
+const TG_END_HOUR = 23;
+const TG_HOUR_PX = 48;
 
 const state = {
-  cursor: startOfMonth(new Date()),
+  cursor: startOfDay(new Date()),   // the date the current view is centered on
+  viewMode: "month",                // month | week | day | year
   categories: [],
   venues: [],
   allEvents: [],
-  events: [],
-  hiddenVenues: new Set(),
   generatedAt: null,
+  searchQuery: "",
 };
 
-const el = {
-  monthLabel: document.getElementById("monthLabel"),
-  grid: document.getElementById("grid"),
-  filterBtn: document.getElementById("filterBtn"),
-  filterPanel: document.getElementById("filterPanel"),
-  statusMsg: document.getElementById("statusMsg"),
-  overlay: document.getElementById("overlay"),
-  dayPanel: document.getElementById("dayPanel"),
-  dayPanelTitle: document.getElementById("dayPanelTitle"),
-  dayPanelEvents: document.getElementById("dayPanelEvents"),
-};
+const el = {};
 
+function startOfDay(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
 function startOfMonth(d) { return new Date(d.getFullYear(), d.getMonth(), 1); }
+function addDays(d, n) { const r = new Date(d); r.setDate(r.getDate() + n); return r; }
+function addMonths(d, n) { return new Date(d.getFullYear(), d.getMonth() + n, 1); }
 function toDateStr(d) {
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 }
 function isSameDay(a, b) { return a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate(); }
+function startOfWeek(d) { const r = startOfDay(d); r.setDate(r.getDate() - r.getDay()); return r; }
 
-function gridRange(monthStart) {
-  const gridStart = new Date(monthStart);
-  gridStart.setDate(gridStart.getDate() - gridStart.getDay());
-  const monthEnd = new Date(monthStart.getFullYear(), monthStart.getMonth()+1, 0);
-  const gridEnd = new Date(monthEnd);
-  gridEnd.setDate(gridEnd.getDate() + (6 - gridEnd.getDay()));
-  return { gridStart, gridEnd };
+function venueColor(colorSlot) {
+  return getComputedStyle(document.documentElement).getPropertyValue(`--slot-${colorSlot}`).trim();
+}
+function escapeHtml(s) {
+  const div = document.createElement("div");
+  div.textContent = s || "";
+  return div.innerHTML;
+}
+function formatTime(iso) {
+  return new Date(iso).toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
 }
 
-// Static export instead of a live API: everything is fetched once at
-// startup (categories.json / venues.json / events.json, regenerated
-// periodically by app/publish.py in the private repo) and filtered
-// client-side from then on -- there's no backend here to ask for a date
-// range. window.CALENDAR_CATEGORIES (set by each page before this script
-// loads) scopes a page to just those categories -- e.g. movies.html only
-// ever sees movies, even though the export itself has everything.
+// ============ Data loading ============
+
 async function loadData() {
   const [catResp, venResp, evResp] = await Promise.all([
     fetch("categories.json"),
@@ -64,159 +63,174 @@ async function loadData() {
 
   state.categories = categories;
   state.venues = venues;
-  state.allEvents = events;
+  state.allEvents = events.slice().sort((a, b) => a.start_dt.localeCompare(b.start_dt));
   state.generatedAt = evPayload.generated_at;
-  renderFilterPanel();
-  renderStatus();
 }
 
-function renderStatus() {
-  if (!state.generatedAt) return;
-  const d = new Date(state.generatedAt);
-  el.statusMsg.textContent = `Updated ${d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}`;
+function eventsOnDay(dateStr) {
+  return state.allEvents.filter(e => e.start_dt.slice(0, 10) === dateStr)
+    .sort((a, b) => a.start_dt.localeCompare(b.start_dt));
+}
+function eventsInRange(startStr, endExclusiveStr) {
+  return state.allEvents.filter(e => e.start_dt >= startStr && e.start_dt < endExclusiveStr);
+}
+function hasEventsOn(dateStr) {
+  return state.allEvents.some(e => e.start_dt.slice(0, 10) === dateStr);
 }
 
-function loadEvents() {
-  const { gridStart, gridEnd } = gridRange(state.cursor);
-  const endExclusive = new Date(gridEnd);
-  endExclusive.setDate(endExclusive.getDate() + 1);
-  const start = toDateStr(gridStart);
-  const end = toDateStr(endExclusive);
-  state.events = state.allEvents.filter(e => e.start_dt >= start && e.start_dt < end);
-}
+// ============ Sidebar: mini calendar ============
 
-function venueColor(colorSlot) {
-  return getComputedStyle(document.documentElement).getPropertyValue(`--slot-${colorSlot}`).trim();
-}
+function renderMiniCal() {
+  const monthStart = startOfMonth(state.cursor);
+  el.miniMonthLabel.textContent = `${MONTH_SHORT[monthStart.getMonth()]} ${monthStart.getFullYear()}`;
 
-function venuesInCategory(catId) {
-  return state.venues.filter(v => v.category_id === catId);
-}
+  const gridStart = startOfWeek(monthStart);
+  el.miniGrid.innerHTML = "";
+  const today = startOfDay(new Date());
 
-function setVenueHidden(venueId, hidden) {
-  if (hidden) state.hiddenVenues.add(venueId);
-  else state.hiddenVenues.delete(venueId);
-}
-
-function renderFilterPanel() {
-  el.filterPanel.innerHTML = "";
-
-  for (const cat of state.categories) {
-    const venues = venuesInCategory(cat.id);
-    const hiddenCount = venues.filter(v => state.hiddenVenues.has(v.id)).length;
-    const allHidden = venues.length > 0 && hiddenCount === venues.length;
-    const someHidden = hiddenCount > 0 && !allHidden;
-    const color = venueColor(cat.color_slot);
-
-    const group = document.createElement("div");
-    group.className = "filter-group";
-
-    const catRow = document.createElement("div");
-    catRow.className = "filter-row category";
-    const catCheckbox = document.createElement("input");
-    catCheckbox.type = "checkbox";
-    catCheckbox.checked = !allHidden;
-    catCheckbox.indeterminate = someHidden;
-    catCheckbox.style.setProperty("--row-accent", color);
-    const catId = `filter-cat-${cat.id}`;
-    catCheckbox.id = catId;
-    catRow.appendChild(catCheckbox);
-    const catLabel = document.createElement("label");
-    catLabel.htmlFor = catId;
-    catLabel.textContent = cat.name;
-    catRow.appendChild(catLabel);
-
-    catRow.addEventListener("click", (e) => {
-      e.preventDefault();
-      const showAll = allHidden || someHidden;
-      for (const v of venues) setVenueHidden(v.id, !showAll);
-      renderFilterPanel();
-      renderGrid();
+  for (let i = 0; i < 42; i++) {
+    const d = addDays(gridStart, i);
+    const dateStr = toDateStr(d);
+    const cell = document.createElement("div");
+    cell.className = "mini-day";
+    cell.textContent = d.getDate();
+    if (d.getMonth() !== monthStart.getMonth()) cell.classList.add("other-month");
+    if (isSameDay(d, today)) cell.classList.add("today");
+    if (isSameDay(d, state.cursor) && !isSameDay(d, today)) cell.classList.add("selected");
+    if (hasEventsOn(dateStr)) cell.classList.add("has-events");
+    cell.addEventListener("click", () => {
+      state.cursor = d;
+      state.viewMode = "day";
+      render();
     });
+    el.miniGrid.appendChild(cell);
+  }
+}
 
-    group.appendChild(catRow);
+document.addEventListener("DOMContentLoaded", () => {
+  // wired up in init() once elements exist
+});
 
-    const subgroup = document.createElement("div");
-    subgroup.className = "filter-subgroup";
-    for (const v of venues) {
-      const vRow = document.createElement("div");
-      vRow.className = "filter-row venue";
-      const vCheckbox = document.createElement("input");
-      vCheckbox.type = "checkbox";
-      vCheckbox.checked = !state.hiddenVenues.has(v.id);
-      vCheckbox.style.setProperty("--row-accent", color);
-      const vId = `filter-venue-${v.id}`;
-      vCheckbox.id = vId;
-      vRow.appendChild(vCheckbox);
-      const vLabel = document.createElement("label");
-      vLabel.htmlFor = vId;
-      vLabel.textContent = v.name;
-      vRow.appendChild(vLabel);
+// ============ Sidebar: agenda list ============
 
-      vRow.addEventListener("click", (e) => {
-        e.preventDefault();
-        setVenueHidden(v.id, !state.hiddenVenues.has(v.id));
-        renderFilterPanel();
-        renderGrid();
-      });
+function relativeDayLabel(d, today) {
+  const diff = Math.round((startOfDay(d) - today) / 86400000);
+  if (diff === 0) return "Today";
+  if (diff === 1) return "Tomorrow";
+  return `${DOW_FULL[d.getDay()]}`;
+}
 
-      subgroup.appendChild(vRow);
+function renderAgenda() {
+  const today = startOfDay(new Date());
+  const query = state.searchQuery.trim().toLowerCase();
+
+  let upcoming = state.allEvents.filter(e => e.start_dt.slice(0, 10) >= toDateStr(today));
+  if (query) {
+    upcoming = upcoming.filter(e =>
+      e.title.toLowerCase().includes(query) || (e.venue_name || "").toLowerCase().includes(query)
+    );
+  }
+
+  el.agendaList.innerHTML = "";
+  if (upcoming.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "agenda-empty";
+    empty.textContent = query ? "No matching events." : "Nothing upcoming.";
+    el.agendaList.appendChild(empty);
+    return;
+  }
+
+  const byDate = new Map();
+  for (const ev of upcoming) {
+    const dateStr = ev.start_dt.slice(0, 10);
+    if (!byDate.has(dateStr)) byDate.set(dateStr, []);
+    byDate.get(dateStr).push(ev);
+  }
+
+  const dates = Array.from(byDate.keys()).sort().slice(0, 21); // cap how far ahead we render
+  for (const dateStr of dates) {
+    const d = new Date(dateStr + "T00:00:00");
+    const heading = document.createElement("div");
+    heading.className = "agenda-day-heading";
+    heading.innerHTML = `<span class="rel">${relativeDayLabel(d, today)}</span> &middot; ${MONTH_SHORT[d.getMonth()]} ${d.getDate()}`;
+    el.agendaList.appendChild(heading);
+
+    for (const ev of byDate.get(dateStr)) {
+      const row = document.createElement("div");
+      row.className = "agenda-row";
+      const dot = document.createElement("span");
+      dot.className = "dot";
+      dot.style.background = venueColor(ev.color_slot);
+      const time = document.createElement("span");
+      time.className = "time";
+      time.textContent = formatTime(ev.start_dt);
+      const title = document.createElement("span");
+      title.className = "title";
+      title.textContent = ev.title;
+      row.append(dot, time, title);
+      row.addEventListener("click", () => openDayPanel(dateStr, byDate.get(dateStr)));
+      el.agendaList.appendChild(row);
     }
-    group.appendChild(subgroup);
-
-    el.filterPanel.appendChild(group);
   }
 }
 
-function openFilterPanel(open) {
-  el.filterPanel.classList.toggle("open", open);
-  el.filterBtn.classList.toggle("open", open);
-  el.filterBtn.setAttribute("aria-expanded", String(open));
-}
+// ============ View label + nav ============
 
-el.filterBtn.addEventListener("click", (e) => {
-  e.stopPropagation();
-  openFilterPanel(!el.filterPanel.classList.contains("open"));
-});
-document.addEventListener("click", (e) => {
-  if (el.filterPanel.classList.contains("open") && !el.filterPanel.contains(e.target) && e.target !== el.filterBtn) {
-    openFilterPanel(false);
+function updateViewLabel() {
+  if (state.viewMode === "month") {
+    el.viewLabel.textContent = `${MONTH_NAMES[state.cursor.getMonth()]} ${state.cursor.getFullYear()}`;
+  } else if (state.viewMode === "week") {
+    const start = startOfWeek(state.cursor);
+    const end = addDays(start, 6);
+    const sameMonth = start.getMonth() === end.getMonth();
+    el.viewLabel.textContent = sameMonth
+      ? `${MONTH_SHORT[start.getMonth()]} ${start.getDate()} – ${end.getDate()}, ${end.getFullYear()}`
+      : `${MONTH_SHORT[start.getMonth()]} ${start.getDate()} – ${MONTH_SHORT[end.getMonth()]} ${end.getDate()}, ${end.getFullYear()}`;
+  } else if (state.viewMode === "day") {
+    el.viewLabel.textContent = `${DOW_FULL[state.cursor.getDay()]}, ${MONTH_NAMES[state.cursor.getMonth()]} ${state.cursor.getDate()}`;
+  } else {
+    el.viewLabel.textContent = `${state.cursor.getFullYear()}`;
   }
-});
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") openFilterPanel(false);
-});
+}
 
-function eventsByDate() {
-  const map = new Map();
-  for (const e of state.events) {
-    if (state.hiddenVenues.has(e.venue_id)) continue;
-    const dateStr = e.start_dt.slice(0, 10);
-    if (!map.has(dateStr)) map.set(dateStr, []);
-    map.get(dateStr).push(e);
+function navigate(direction) {
+  if (state.viewMode === "month") state.cursor = addMonths(state.cursor, direction);
+  else if (state.viewMode === "week") state.cursor = addDays(state.cursor, direction * 7);
+  else if (state.viewMode === "day") state.cursor = addDays(state.cursor, direction);
+  else state.cursor = new Date(state.cursor.getFullYear() + direction, state.cursor.getMonth(), 1);
+  render();
+}
+
+// ============ Month view ============
+
+function renderMonthView(container) {
+  const weekdayRow = document.createElement("div");
+  weekdayRow.className = "weekday-row";
+  for (const d of DOW_SHORT) {
+    const cell = document.createElement("div");
+    cell.textContent = d;
+    weekdayRow.appendChild(cell);
   }
-  for (const list of map.values()) list.sort((a, b) => a.start_dt.localeCompare(b.start_dt));
-  return map;
-}
+  container.appendChild(weekdayRow);
 
-function formatTime(iso) {
-  const d = new Date(iso);
-  return d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
-}
+  const grid = document.createElement("div");
+  grid.className = "grid";
 
-function renderGrid() {
-  el.grid.innerHTML = "";
-  const { gridStart, gridEnd } = gridRange(state.cursor);
-  const byDate = eventsByDate();
-  const today = new Date();
+  const monthStart = startOfMonth(state.cursor);
+  const gridStart = startOfWeek(monthStart);
+  const monthEnd = new Date(monthStart.getFullYear(), monthStart.getMonth() + 1, 0);
+  const gridEnd = addDays(monthEnd, 6 - monthEnd.getDay());
+  const today = startOfDay(new Date());
+  const mobile = window.innerWidth <= 640;
+  const maxPills = mobile ? 10 : 3;
 
-  const cursor = new Date(gridStart);
+  let cursor = new Date(gridStart);
   while (cursor <= gridEnd) {
     const dateStr = toDateStr(cursor);
-    const dayEvents = byDate.get(dateStr) || [];
+    const dayEvents = eventsOnDay(dateStr);
     const cell = document.createElement("div");
     cell.className = "day-cell";
-    if (cursor.getMonth() !== state.cursor.getMonth()) cell.classList.add("other-month");
+    if (cursor.getMonth() !== monthStart.getMonth()) cell.classList.add("other-month");
     if (isSameDay(cursor, today)) cell.classList.add("today");
 
     const dayNum = document.createElement("div");
@@ -224,13 +238,11 @@ function renderGrid() {
     dayNum.textContent = cursor.getDate();
     cell.appendChild(dayNum);
 
-    const mobile = window.innerWidth <= 640;
-    const maxPills = mobile ? 10 : 3;
     dayEvents.slice(0, maxPills).forEach(ev => {
       const pill = document.createElement("div");
       pill.className = "event-pill";
       pill.textContent = ev.title;
-      pill.style.background = venueColor(ev.color_slot);
+      pill.style.setProperty("--pill-color", venueColor(ev.color_slot));
       pill.title = ev.title;
       cell.appendChild(pill);
     });
@@ -245,10 +257,259 @@ function renderGrid() {
       cell.addEventListener("click", () => openDayPanel(dateStr, dayEvents));
     }
 
-    el.grid.appendChild(cell);
-    cursor.setDate(cursor.getDate() + 1);
+    grid.appendChild(cell);
+    cursor = addDays(cursor, 1);
   }
+  container.appendChild(grid);
 }
+
+// ============ Week / Day time-grid view ============
+
+function timeGridRange(events) {
+  let minH = TG_START_HOUR, maxH = TG_END_HOUR;
+  for (const ev of events) {
+    const h = Number(ev.start_dt.slice(11, 13));
+    if (!Number.isNaN(h)) {
+      minH = Math.min(minH, h);
+      maxH = Math.max(maxH, h + 2); // leave room below the last start time
+    }
+  }
+  return { startHour: Math.max(0, Math.min(minH, TG_START_HOUR)), endHour: Math.min(24, Math.max(maxH, TG_END_HOUR)) };
+}
+
+function eventSpan(ev) {
+  const startH = Number(ev.start_dt.slice(11, 13)) + Number(ev.start_dt.slice(14, 16)) / 60;
+  const durationH = ev.end_dt
+    ? Math.max(0.5, (new Date(ev.end_dt) - new Date(ev.start_dt)) / 3600000)
+    : 1.5;
+  return { startH, endH: startH + durationH };
+}
+
+// Side-by-side layout for events that overlap in time, same idea most
+// calendar UIs use: cluster mutually-overlapping events, greedily pack
+// each cluster into the fewest columns (an event reuses a column once
+// its predecessor there has ended), then give every event in a cluster
+// an equal share of the day column's width.
+function layoutDayEvents(dayEvents) {
+  const sorted = dayEvents
+    .map(ev => ({ ev, ...eventSpan(ev) }))
+    .sort((a, b) => a.startH - b.startH);
+
+  const results = [];
+  let cluster = [];
+  let clusterEnd = -Infinity;
+
+  function packCluster(items) {
+    const columnEnds = []; // end time currently occupied in each column
+    for (const item of items) {
+      let col = columnEnds.findIndex(end => item.startH >= end);
+      if (col === -1) {
+        col = columnEnds.length;
+        columnEnds.push(item.endH);
+      } else {
+        columnEnds[col] = item.endH;
+      }
+      item.column = col;
+    }
+    const columnCount = columnEnds.length;
+    for (const item of items) results.push({ ...item, columnCount });
+  }
+
+  for (const item of sorted) {
+    if (cluster.length && item.startH >= clusterEnd) {
+      packCluster(cluster);
+      cluster = [];
+      clusterEnd = -Infinity;
+    }
+    cluster.push(item);
+    clusterEnd = Math.max(clusterEnd, item.endH);
+  }
+  if (cluster.length) packCluster(cluster);
+
+  return results;
+}
+
+// Scrapers/community submissions that don't know a real start time default
+// to 00:00 (same convention app/discord.py's digest already uses to mean
+// "all-day / no known time" -- see _fmt_time there). Those get their own
+// all-day strip instead of cramming a misleading "12:00 AM" block into the
+// hourly grid.
+function isNoTimeEvent(ev) {
+  return ev.start_dt.slice(11, 16) === "00:00";
+}
+
+function renderTimeGrid(container, days) {
+  // days: array of Date, 1 for day view, 7 for week view
+  const dayBuckets = days.map(d => {
+    const dateStr = toDateStr(d);
+    const all = eventsOnDay(dateStr);
+    return {
+      d, dateStr,
+      allDay: all.filter(isNoTimeEvent),
+      timed: all.filter(ev => !isNoTimeEvent(ev)),
+    };
+  });
+  const maxAllDay = Math.max(0, ...dayBuckets.map(b => b.allDay.length));
+  const { startHour, endHour } = timeGridRange(dayBuckets.flatMap(b => b.timed));
+  const totalHours = endHour - startHour;
+  const today = startOfDay(new Date());
+
+  const wrap = document.createElement("div");
+  wrap.className = "timegrid-wrap";
+  const grid = document.createElement("div");
+  grid.className = "timegrid";
+
+  const headerRow = document.createElement("div");
+  headerRow.className = "tg-header-row";
+  headerRow.style.gridTemplateColumns = `52px repeat(${days.length}, 1fr)`;
+  const corner = document.createElement("div");
+  headerRow.appendChild(corner);
+  for (const d of days) {
+    const cell = document.createElement("div");
+    cell.className = "tg-header-cell";
+    if (isSameDay(d, today)) cell.classList.add("today");
+    cell.innerHTML = `<div class="dow">${DOW_SHORT[d.getDay()]}</div><div class="num">${d.getDate()}</div>`;
+    headerRow.appendChild(cell);
+  }
+  grid.appendChild(headerRow);
+
+  if (maxAllDay > 0) {
+    const alldayRow = document.createElement("div");
+    alldayRow.className = "tg-allday-row";
+    alldayRow.style.gridTemplateColumns = `52px repeat(${days.length}, 1fr)`;
+    const alldayCorner = document.createElement("div");
+    alldayCorner.className = "tg-allday-label";
+    alldayCorner.textContent = "All-day";
+    alldayRow.appendChild(alldayCorner);
+    for (const bucket of dayBuckets) {
+      const cell = document.createElement("div");
+      cell.className = "tg-allday-cell";
+      for (const ev of bucket.allDay) {
+        const chip = document.createElement("div");
+        chip.className = "tg-allday-chip";
+        chip.textContent = ev.title;
+        chip.title = ev.title;
+        chip.style.setProperty("--pill-color", venueColor(ev.color_slot));
+        chip.addEventListener("click", () => openDayPanel(bucket.dateStr, bucket.allDay.concat(bucket.timed)));
+        cell.appendChild(chip);
+      }
+      alldayRow.appendChild(cell);
+    }
+    grid.appendChild(alldayRow);
+  }
+
+  const body = document.createElement("div");
+  body.className = "tg-body";
+
+  const hoursCol = document.createElement("div");
+  hoursCol.className = "tg-hours";
+  hoursCol.style.height = `${totalHours * TG_HOUR_PX}px`;
+  for (let h = startHour; h < endHour; h++) {
+    const label = document.createElement("div");
+    label.className = "tg-hour-label";
+    label.style.height = `${TG_HOUR_PX}px`;
+    const ampm = h < 12 ? "AM" : "PM";
+    const h12 = h % 12 || 12;
+    label.textContent = `${h12} ${ampm}`;
+    hoursCol.appendChild(label);
+  }
+  body.appendChild(hoursCol);
+
+  const columns = document.createElement("div");
+  columns.className = "tg-columns";
+  columns.style.gridTemplateColumns = `repeat(${days.length}, 1fr)`;
+  columns.style.height = `${totalHours * TG_HOUR_PX}px`;
+
+  dayBuckets.forEach(bucket => {
+    const { dateStr } = bucket;
+    const dayEvents = bucket.allDay.concat(bucket.timed);
+    const col = document.createElement("div");
+    col.className = "tg-column";
+    for (let h = startHour; h < endHour; h++) {
+      const line = document.createElement("div");
+      line.className = "tg-hour-line";
+      col.appendChild(line);
+    }
+    const laidOut = layoutDayEvents(bucket.timed);
+    for (const { ev, startH, endH, column, columnCount } of laidOut) {
+      const top = Math.max(0, (startH - startHour) * TG_HOUR_PX);
+      const height = Math.max(20, (endH - startH) * TG_HOUR_PX - 2);
+      const widthPct = 100 / columnCount;
+
+      const block = document.createElement("div");
+      block.className = "tg-event";
+      block.style.top = `${top}px`;
+      block.style.height = `${height}px`;
+      block.style.left = `calc(${column * widthPct}% + 2px)`;
+      block.style.width = `calc(${widthPct}% - 4px)`;
+      block.style.setProperty("--pill-color", venueColor(ev.color_slot));
+      block.innerHTML = `<span class="tg-ev-time">${formatTime(ev.start_dt)}</span><span class="tg-ev-title">${escapeHtml(ev.title)}</span>`;
+      block.addEventListener("click", () => openDayPanel(dateStr, dayEvents));
+      col.appendChild(block);
+    }
+    columns.appendChild(col);
+  });
+  body.appendChild(columns);
+  grid.appendChild(body);
+  wrap.appendChild(grid);
+  container.appendChild(wrap);
+}
+
+function renderWeekView(container) {
+  const start = startOfWeek(state.cursor);
+  const days = Array.from({ length: 7 }, (_, i) => addDays(start, i));
+  renderTimeGrid(container, days);
+}
+function renderDayView(container) {
+  renderTimeGrid(container, [state.cursor]);
+}
+
+// ============ Year view ============
+
+function renderYearView(container) {
+  const year = state.cursor.getFullYear();
+  const today = startOfDay(new Date());
+  const grid = document.createElement("div");
+  grid.className = "year-grid";
+
+  for (let m = 0; m < 12; m++) {
+    const monthStart = new Date(year, m, 1);
+    const box = document.createElement("div");
+    box.className = "year-month";
+    box.addEventListener("click", () => {
+      state.cursor = monthStart;
+      state.viewMode = "month";
+      render();
+    });
+
+    const label = document.createElement("div");
+    label.className = "ym-label";
+    label.textContent = MONTH_SHORT[m];
+    box.appendChild(label);
+
+    const ymGrid = document.createElement("div");
+    ymGrid.className = "ym-grid";
+    const gridStart = startOfWeek(monthStart);
+    for (let i = 0; i < 42; i++) {
+      const d = addDays(gridStart, i);
+      const cell = document.createElement("div");
+      cell.className = "ym-day";
+      if (d.getMonth() !== m) {
+        cell.classList.add("other-month");
+      } else {
+        cell.textContent = d.getDate();
+        if (isSameDay(d, today)) cell.classList.add("today");
+        if (hasEventsOn(toDateStr(d))) cell.classList.add("has-events");
+      }
+      ymGrid.appendChild(cell);
+    }
+    box.appendChild(ymGrid);
+    grid.appendChild(box);
+  }
+  container.appendChild(grid);
+}
+
+// ============ Day-detail overlay ============
 
 function openDayPanel(dateStr, events) {
   const d = new Date(dateStr + "T00:00:00");
@@ -280,47 +541,108 @@ function openDayPanel(dateStr, events) {
   el.overlay.classList.remove("hidden");
 }
 
-function escapeHtml(s) {
-  const div = document.createElement("div");
-  div.textContent = s || "";
-  return div.innerHTML;
+// ============ Top-level render ============
+
+function render() {
+  updateViewLabel();
+  renderMiniCal();
+
+  document.querySelectorAll(".view-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.view === state.viewMode);
+  });
+
+  el.viewContainer.innerHTML = "";
+  if (state.viewMode === "month") renderMonthView(el.viewContainer);
+  else if (state.viewMode === "week") renderWeekView(el.viewContainer);
+  else if (state.viewMode === "day") renderDayView(el.viewContainer);
+  else renderYearView(el.viewContainer);
 }
 
-function updateMonthLabel() {
-  el.monthLabel.textContent = `${MONTH_NAMES[state.cursor.getMonth()]} ${state.cursor.getFullYear()}`;
+function renderStatus() {
+  if (!state.generatedAt || !el.statusMsg) return;
+  const d = new Date(state.generatedAt);
+  el.statusMsg.textContent = `Updated ${d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}`;
 }
 
-function refreshView() {
-  updateMonthLabel();
-  loadEvents();
-  renderGrid();
+function bindElements() {
+  el.sidebar = document.getElementById("sidebar");
+  el.sidebarScrim = document.getElementById("sidebarScrim");
+  el.sidebarToggle = document.getElementById("sidebarToggle");
+  el.miniMonthLabel = document.getElementById("miniMonthLabel");
+  el.miniGrid = document.getElementById("miniGrid");
+  el.miniPrevBtn = document.getElementById("miniPrevBtn");
+  el.miniNextBtn = document.getElementById("miniNextBtn");
+  el.searchInput = document.getElementById("searchInput");
+  el.agendaList = document.getElementById("agendaList");
+  el.viewLabel = document.getElementById("viewLabel");
+  el.viewContainer = document.getElementById("viewContainer");
+  el.prevBtn = document.getElementById("prevBtn");
+  el.nextBtn = document.getElementById("nextBtn");
+  el.todayBtn = document.getElementById("todayBtn");
+  el.statusMsg = document.getElementById("statusMsg");
+  el.overlay = document.getElementById("overlay");
+  el.dayPanel = document.getElementById("dayPanel");
+  el.dayPanelTitle = document.getElementById("dayPanelTitle");
+  el.dayPanelEvents = document.getElementById("dayPanelEvents");
+  el.closePanelBtn = document.getElementById("closePanelBtn");
 }
 
-document.getElementById("prevBtn").addEventListener("click", () => {
-  state.cursor = new Date(state.cursor.getFullYear(), state.cursor.getMonth() - 1, 1);
-  refreshView();
-});
-document.getElementById("nextBtn").addEventListener("click", () => {
-  state.cursor = new Date(state.cursor.getFullYear(), state.cursor.getMonth() + 1, 1);
-  refreshView();
-});
-document.getElementById("todayBtn").addEventListener("click", () => {
-  const today = new Date();
-  const alreadyHere = state.cursor.getFullYear() === today.getFullYear() &&
-                      state.cursor.getMonth() === today.getMonth();
-  state.cursor = startOfMonth(today);
-  if (!alreadyHere) refreshView();
-  const todayStr = toDateStr(today);
-  openDayPanel(todayStr, eventsByDate().get(todayStr) || []);
-});
-document.getElementById("closePanelBtn").addEventListener("click", () => {
-  el.overlay.classList.add("hidden");
-});
-el.overlay.addEventListener("click", (e) => {
-  if (e.target === el.overlay) el.overlay.classList.add("hidden");
-});
+function bindEvents() {
+  el.prevBtn.addEventListener("click", () => navigate(-1));
+  el.nextBtn.addEventListener("click", () => navigate(1));
+  el.todayBtn.addEventListener("click", () => {
+    state.cursor = startOfDay(new Date());
+    render();
+  });
+
+  document.querySelectorAll(".view-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      state.viewMode = btn.dataset.view;
+      render();
+    });
+  });
+
+  el.miniPrevBtn.addEventListener("click", () => {
+    state.cursor = addMonths(startOfMonth(state.cursor), -1);
+    renderMiniCal();
+  });
+  el.miniNextBtn.addEventListener("click", () => {
+    state.cursor = addMonths(startOfMonth(state.cursor), 1);
+    renderMiniCal();
+  });
+
+  el.searchInput.addEventListener("input", () => {
+    state.searchQuery = el.searchInput.value;
+    renderAgenda();
+  });
+
+  el.closePanelBtn.addEventListener("click", () => el.overlay.classList.add("hidden"));
+  el.overlay.addEventListener("click", (e) => {
+    if (e.target === el.overlay) el.overlay.classList.add("hidden");
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") el.overlay.classList.add("hidden");
+  });
+
+  if (el.sidebarToggle) {
+    el.sidebarToggle.addEventListener("click", () => {
+      el.sidebar.classList.add("open");
+      el.sidebarScrim.classList.add("open");
+    });
+    el.sidebarScrim.addEventListener("click", () => {
+      el.sidebar.classList.remove("open");
+      el.sidebarScrim.classList.remove("open");
+    });
+  }
+
+  window.addEventListener("resize", () => { if (state.viewMode === "month") render(); });
+}
 
 (async function init() {
+  bindElements();
+  bindEvents();
   await loadData();
-  refreshView();
+  renderAgenda();
+  renderStatus();
+  render();
 })();
