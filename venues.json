@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "id": "baba-yaga",
+    "name": "Baba Yaga",
+    "category_id": "music"
+  },
+  {
+    "id": "astir",
+    "name": "a/stir",
+    "category_id": "things-to-do"
+  },
+  {
+    "id": "siff",
+    "name": "SIFF",
+    "category_id": "movies"
+  },
+  {
+    "id": "nwff",
+    "name": "Northwest Film Forum",
+    "category_id": "movies"
+  },
+  {
+    "id": "beacon",
+    "name": "The Beacon",
+    "category_id": "movies"
+  },
+  {
+    "id": "art-table",
+    "name": "Art Table",
+    "category_id": "music"
+  },
+  {
+    "id": "lindas",
+    "name": "Linda's",
+    "category_id": "things-to-do"
+  },
+  {
+    "id": "monkey-pub",
+    "name": "Monkey Pub",
+    "category_id": "things-to-do"
+  },
+  {
+    "id": "visitseattle",
+    "name": "Visit Seattle",
+    "category_id": "city-events"
+  }
+]
