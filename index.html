@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tea4Tea Events</title>
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+  <div id="app">
+    <header class="toolbar">
+      <div class="toolbar-left">
+        <button id="prevBtn" class="icon-btn" aria-label="Previous month">&#8249;</button>
+        <button id="nextBtn" class="icon-btn" aria-label="Next month">&#8250;</button>
+        <button id="todayBtn" class="text-btn">Today</button>
+        <h1 id="monthLabel"></h1>
+      </div>
+      <div class="toolbar-right">
+        <div class="filter-dropdown">
+          <button id="filterBtn" class="text-btn filter-trigger" aria-haspopup="true" aria-expanded="false">
+            Filters <span class="caret">&#9662;</span>
+          </button>
+          <div id="filterPanel" class="filter-panel"></div>
+        </div>
+        <span id="statusMsg" class="status-msg"></span>
+      </div>
+    </header>
+
+    <div class="weekday-row">
+      <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+    </div>
+
+    <div id="grid" class="grid"></div>
+  </div>
+
+  <div id="overlay" class="overlay hidden">
+    <div id="dayPanel" class="day-panel">
+      <div class="day-panel-header">
+        <h2 id="dayPanelTitle"></h2>
+        <button id="closePanelBtn" class="icon-btn" aria-label="Close">&times;</button>
+      </div>
+      <div id="dayPanelEvents" class="day-panel-events"></div>
+    </div>
+  </div>
+
+  <script src="app.js?v=1"></script>
+</body>
+</html>
