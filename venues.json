@@ -48,5 +48,10 @@
     "id": "community-1",
     "name": "PRESENTED By",
     "category_id": "things-to-do"
+  },
+  {
+    "id": "community-3",
+    "name": "16th Annual Video Store Day",
+    "category_id": "things-to-do"
   }
 ]
