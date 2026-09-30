@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./Root-BlXOJ2eU.js";var r=t(),i=e();(0,r.createRoot)(document.getElementById(`root`)).render((0,i.jsx)(n,{page:`movies`,categories:[`movies`]}));
