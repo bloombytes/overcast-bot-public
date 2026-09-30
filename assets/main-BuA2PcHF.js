@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./Root-CE0928sh.js";var r=t(),i=e();(0,r.createRoot)(document.getElementById(`root`)).render((0,i.jsx)(n,{page:`todo`,categories:[`things-to-do`,`city-events`]}));

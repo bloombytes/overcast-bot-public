@@ -1,78 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Movies — Tea4Tea Events</title>
-<link rel="stylesheet" href="style.css?v=3">
-</head>
-<body>
-  <div id="app-shell">
-    <div id="sidebarScrim"></div>
-    <aside id="sidebar">
-      <div class="sidebar-header">
-        <a class="brand" href="index.html">Tea4Tea</a>
-        <nav class="sidebar-nav">
-          <a href="index.html">To Do</a>
-          <a href="music.html">Music</a>
-          <a href="movies.html" class="active">Movies</a>
-        </nav>
-      </div>
-
-      <div class="mini-cal">
-        <div class="mini-cal-header">
-          <button id="miniPrevBtn" class="icon-btn small" aria-label="Previous month">&#8249;</button>
-          <span id="miniMonthLabel"></span>
-          <button id="miniNextBtn" class="icon-btn small" aria-label="Next month">&#8250;</button>
-        </div>
-        <div class="mini-weekday-row">
-          <div>S</div><div>M</div><div>T</div><div>W</div><div>T</div><div>F</div><div>S</div>
-        </div>
-        <div id="miniGrid" class="mini-grid"></div>
-      </div>
-
-      <div class="sidebar-search">
-        <input id="searchInput" type="text" placeholder="Search events…">
-      </div>
-
-      <div id="agendaList" class="agenda-list"></div>
-    </aside>
-
-    <main id="mainPanel">
-      <header class="toolbar">
-        <div class="toolbar-left">
-          <button id="sidebarToggle" class="icon-btn" aria-label="Menu">&#9776;</button>
-          <button id="prevBtn" class="icon-btn" aria-label="Previous">&#8249;</button>
-          <button id="nextBtn" class="icon-btn" aria-label="Next">&#8250;</button>
-          <button id="todayBtn" class="text-btn">Today</button>
-          <h1 id="viewLabel"></h1>
-        </div>
-        <div class="toolbar-right">
-          <div class="view-toggle" role="tablist">
-            <button class="view-btn" data-view="day">Day</button>
-            <button class="view-btn" data-view="week">Week</button>
-            <button class="view-btn active" data-view="month">Month</button>
-            <button class="view-btn" data-view="year">Year</button>
-          </div>
-          <span id="statusMsg" class="status-msg"></span>
-        </div>
-      </header>
-
-      <div id="viewContainer"></div>
-    </main>
-  </div>
-
-  <div id="overlay" class="overlay hidden">
-    <div id="dayPanel" class="day-panel">
-      <div class="day-panel-header">
-        <h2 id="dayPanelTitle"></h2>
-        <button id="closePanelBtn" class="icon-btn" aria-label="Close">&times;</button>
-      </div>
-      <div id="dayPanelEvents" class="day-panel-events"></div>
-    </div>
-  </div>
-
-  <script>window.CALENDAR_CATEGORIES = ["movies"];</script>
-  <script src="app.js?v=3"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies — Tea4Tea Events</title>
+    <script type="module" crossorigin src="/assets/movies-a2rUhhyh.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/Root-CE0928sh.js">
+    <link rel="stylesheet" crossorigin href="/assets/Root-BCAHSuax.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
