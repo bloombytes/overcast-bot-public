@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T23:05:55.539692",
+  "generated_at": "2026-10-10T05:05:51.821345",
   "events": [
     {
       "id": "astir:3515679-2026-10-06",
@@ -14,7 +14,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every first Tuesday A safe space for Queer people in the Seattle kink community to socialize.",
       "image_url": "https://static.spotapps.co/spots/e7/05d16d464f497899dfbcd0a4ffa672/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "astir:3528892-2026-10-08",
@@ -29,7 +29,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every second Thursday Join us for our monthly trivia night Downstairs at a/stir! How is this trivia different than every other trivia night, you ask? Well, over the two hour event, there will definitely be questions on random facts - ranging from pop culture to sportsball to music and movies to history to geography \u2013 but all with an added twist. Borrowing mechanics from classic and modern game shows and board games, we ramp up the fun by twisting each category into something new. Examples include: pushing your luck by earning double points on the categories in which you\u2019re most confident; using real time polling, guess not the right answer but the answer that most people in the room think is correct. The twists will be different each time. We also rely heavily on audio and video clues to make the experience fun and engaging for everyone \u2013 even those that don\u2019t like trivia. Interested? Gather your team of up to six players and compete for bragging rights! 21+. Free to attend/participate.",
       "image_url": "https://static.spotapps.co/spots/3f/e550ee402142b3b14be7d3a93b8041/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/aespa-live-tour/|10/9/2026",
@@ -104,67 +104,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/telescreens-2026-10-09-baba-yaga-seattle-7a58cd",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
-    },
-    {
-      "id": "siff:QtYgZFfh15",
-      "venue_id": "siff",
-      "venue_name": "SIFF",
-      "category_id": "movies",
-      "category_name": "Movies",
-      "color_slot": 3,
-      "title": "Digger",
-      "start_dt": "2026-10-09T16:00:00",
-      "end_dt": "2026-10-09T18:09:00",
-      "url": "https://www.siff.net/cinema/in-theaters/digger",
-      "description": "USA | 2026 | 128 min. | Alejandro G. I\u00f1\u00e1rritu \u2014 SIFF Cinema Downtown",
-      "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
-    },
-    {
-      "id": "siff:Li27u80l6W",
-      "venue_id": "siff",
-      "venue_name": "SIFF",
-      "category_id": "movies",
-      "category_name": "Movies",
-      "color_slot": 3,
-      "title": "Primetime",
-      "start_dt": "2026-10-09T16:20:00",
-      "end_dt": "2026-10-09T18:07:00",
-      "url": "https://www.siff.net/cinema/in-theaters/primetime",
-      "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
-      "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
-    },
-    {
-      "id": "siff:yElSr8xmQe",
-      "venue_id": "siff",
-      "venue_name": "SIFF",
-      "category_id": "movies",
-      "category_name": "Movies",
-      "color_slot": 3,
-      "title": "NAZA",
-      "start_dt": "2026-10-09T16:40:00",
-      "end_dt": "2026-10-09T18:00:00",
-      "url": "https://www.siff.net/cinema/in-theaters/naza",
-      "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
-      "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
-    },
-    {
-      "id": "siff:rBW4542rhM",
-      "venue_id": "siff",
-      "venue_name": "SIFF",
-      "category_id": "movies",
-      "category_name": "Movies",
-      "color_slot": 3,
-      "title": "Lady",
-      "start_dt": "2026-10-09T17:00:00",
-      "end_dt": "2026-10-09T18:35:00",
-      "url": "https://www.siff.net/cinema/in-theaters/lady",
-      "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
-      "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "astir:3409196-2026-10-09",
@@ -179,112 +119,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Intiman Theater Opening Night Dinner",
       "image_url": "https://static.spotapps.co/spots/e6/b5daa8f08d4d629c9543ad604cce43/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
-    },
-    {
-      "id": "siff:TwuQ5TdnmY",
-      "venue_id": "siff",
-      "venue_name": "SIFF",
-      "category_id": "movies",
-      "category_name": "Movies",
-      "color_slot": 3,
-      "title": "NAZA",
-      "start_dt": "2026-10-09T19:00:00",
-      "end_dt": "2026-10-09T20:20:00",
-      "url": "https://www.siff.net/cinema/in-theaters/naza",
-      "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
-      "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
-    },
-    {
-      "id": "siff:DdOltqSaL4",
-      "venue_id": "siff",
-      "venue_name": "SIFF",
-      "category_id": "movies",
-      "category_name": "Movies",
-      "color_slot": 3,
-      "title": "The Scout",
-      "start_dt": "2026-10-09T19:00:00",
-      "end_dt": "2026-10-09T20:29:00",
-      "url": "https://www.siff.net/cinema/in-theaters/the-scout",
-      "description": "USA | 2025 | 89 min. | Paula Gonz\u00e1lez-Nasser \u2014 SIFF Film Center",
-      "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
-    },
-    {
-      "id": "beacon:/calendar/movie/l-amour-fou-w-a-s-hamrah|2026-10-09|7:00 PM",
-      "venue_id": "beacon",
-      "venue_name": "The Beacon",
-      "category_id": "movies",
-      "category_name": "Movies",
-      "color_slot": 3,
-      "title": "L\u00e2\u0080\u0099AMOUR FOU W/ A.S. HAMRAH",
-      "start_dt": "2026-10-09T19:00:00",
-      "end_dt": null,
-      "url": "https://thebeacon.film/calendar/movie/l-amour-fou-w-a-s-hamrah",
-      "description": "",
-      "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.587427"
-    },
-    {
-      "id": "siff:ExvQoGQNrL",
-      "venue_id": "siff",
-      "venue_name": "SIFF",
-      "category_id": "movies",
-      "category_name": "Movies",
-      "color_slot": 3,
-      "title": "The History of Concrete",
-      "start_dt": "2026-10-09T19:15:00",
-      "end_dt": "2026-10-09T20:56:00",
-      "url": "https://www.siff.net/cinema/in-theaters/the-history-of-concrete",
-      "description": "USA | 2026 | 101 min.  | John Wilson \u2014 SIFF Cinema Downtown",
-      "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
-    },
-    {
-      "id": "siff:wZj7EVZsTm",
-      "venue_id": "siff",
-      "venue_name": "SIFF",
-      "category_id": "movies",
-      "category_name": "Movies",
-      "color_slot": 3,
-      "title": "Primetime",
-      "start_dt": "2026-10-09T19:20:00",
-      "end_dt": "2026-10-09T21:07:00",
-      "url": "https://www.siff.net/cinema/in-theaters/primetime",
-      "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
-      "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
-    },
-    {
-      "id": "art-table:Live Music-2026-10-09",
-      "venue_id": "art-table",
-      "venue_name": "Art Table",
-      "category_id": "music",
-      "category_name": "Music",
-      "color_slot": 1,
-      "title": "Live Music",
-      "start_dt": "2026-10-09T19:30:00",
-      "end_dt": null,
-      "url": "",
-      "description": "",
-      "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
-    },
-    {
-      "id": "siff:PoujPnjj57",
-      "venue_id": "siff",
-      "venue_name": "SIFF",
-      "category_id": "movies",
-      "category_name": "Movies",
-      "color_slot": 3,
-      "title": "Lady",
-      "start_dt": "2026-10-09T19:45:00",
-      "end_dt": "2026-10-09T21:20:00",
-      "url": "https://www.siff.net/cinema/in-theaters/lady",
-      "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
-      "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/trauma-bond-come-and-see/|2026-10-09T20:00:00",
@@ -299,7 +134,7 @@
       "url": "https://nwfilmforum.org/films/trauma-bond-come-and-see/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/08/comeandsee1600-4-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/an-autumn-afternoon/|2026-10-09T20:30:00",
@@ -314,7 +149,7 @@
       "url": "https://nwfilmforum.org/films/an-autumn-afternoon/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/03/anautumnafternoon1600-5-1200x675.jpg",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/an-evening-with-mike-dawes/|10/10/2026",
@@ -389,7 +224,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:KZtVc3ti1n",
@@ -404,7 +239,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/digger",
       "description": "USA | 2026 | 128 min. | Alejandro G. I\u00f1\u00e1rritu \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:6VUV5ZYKse",
@@ -419,7 +254,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:WwRpwG6kBZ",
@@ -434,7 +269,7 @@
       "url": "https://www.siff.net/programs-and-events/andrzej-wajda/a-generation",
       "description": "Poland | 1954 | 87 min.  | Andrzej Wajda \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:ReGLUcv705",
@@ -449,7 +284,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/salomes-last-dance",
       "description": "United Kingdom | 1988 | 89 min. | Ken Russell \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:EZSeULcSMM",
@@ -464,7 +299,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/an-autumn-afternoon/|2026-10-10T16:00:00",
@@ -479,7 +314,7 @@
       "url": "https://nwfilmforum.org/films/an-autumn-afternoon/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/03/anautumnafternoon1600-5-1200x675.jpg",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:7Ve0tBQXsh",
@@ -494,7 +329,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:YfOi5QaIgv",
@@ -509,7 +344,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/the-scout",
       "description": "USA | 2025 | 89 min. | Paula Gonz\u00e1lez-Nasser \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/screamplay-4k-restoration/|2026-10-10T16:30:00",
@@ -524,7 +359,7 @@
       "url": "https://nwfilmforum.org/films/screamplay-4k-restoration/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/09/screamplay1600-1-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:ejC61dN9gb",
@@ -539,7 +374,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/primetime",
       "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:HA3AKHstH7",
@@ -554,7 +389,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/the-history-of-concrete",
       "description": "USA | 2026 | 101 min.  | John Wilson \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "astir:3291547-2026-10-10",
@@ -569,7 +404,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "",
       "image_url": "https://static.spotapps.co/spots/6a/84c4b14f464b5e867f4f09f1337d82/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "siff:UhUUkuEpnD",
@@ -584,7 +419,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:duKpQgU6iu",
@@ -599,7 +434,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/the-scout",
       "description": "USA | 2025 | 89 min. | Paula Gonz\u00e1lez-Nasser \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "baba-yaga:170433",
@@ -614,7 +449,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/hot-flash-heat-wave-2026-10-10-baba-yaga-seattle-7dffce",
       "description": "Hot Flash Heat Wave began as a carefree high school garage band in Davis, CA where the three founding members met in the lively local music scene, playing in various groups and garages around the small suburban town. The members later reconvened in San Francisco, where the project rose to prominence in the bay area music scene, eventually gaining wider attention with the release of their debut record\u2019s 'Gutter Girl' music video, which made its way to the front page of Reddit and catapulted the group to the international stage. Since then HFHW has created a dynamic and diverse soundscape with 3 records and one EP that have solidified them as a well known name in modern indie music.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:oZRTFEHEfH",
@@ -629,7 +464,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/the-blue-rose-part-ii",
       "description": "USA | 2026 | 60 min.  | James Grixoni \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/an-autumn-afternoon/|2026-10-10T19:00:00",
@@ -644,7 +479,7 @@
       "url": "https://nwfilmforum.org/films/an-autumn-afternoon/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/03/anautumnafternoon1600-5-1200x675.jpg",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:ssxBn96qMj",
@@ -659,7 +494,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/digger",
       "description": "USA | 2026 | 128 min. | Alejandro G. I\u00f1\u00e1rritu \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:2Q817B2iwr",
@@ -674,7 +509,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/primetime",
       "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/screamplay-4k-restoration/|2026-10-10T19:30:00",
@@ -689,7 +524,7 @@
       "url": "https://nwfilmforum.org/films/screamplay-4k-restoration/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/09/screamplay1600-1-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:VBLQmYqTsi",
@@ -704,7 +539,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/anna-graves/|10/11/2026",
@@ -749,7 +584,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:MqW6SKf5lf",
@@ -764,7 +599,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:Ck9orF23gT",
@@ -779,7 +614,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/primetime",
       "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:HFk9H3QKKn",
@@ -794,7 +629,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/the-history-of-concrete",
       "description": "USA | 2026 | 101 min.  | John Wilson \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:3M9ikyH8RW",
@@ -809,7 +644,7 @@
       "url": "https://www.siff.net/programs-and-events/andrzej-wajda/kana\u0142",
       "description": "Poland | 1957 | 96 min.  | Andrzej Wajda \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:pM3kXEA0Yr",
@@ -824,7 +659,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:26wT4pchfq",
@@ -839,7 +674,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:XLAEPL8Pc2",
@@ -854,7 +689,7 @@
       "url": "https://www.siff.net/programs-and-events/siff-book-club/carrie",
       "description": "USA | 1976 | 98 min. | Brian De Palma \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:gna22pYktK",
@@ -869,7 +704,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/the-history-of-concrete",
       "description": "USA | 2026 | 101 min.  | John Wilson \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/an-autumn-afternoon/|2026-10-11T16:00:00",
@@ -884,7 +719,7 @@
       "url": "https://nwfilmforum.org/films/an-autumn-afternoon/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/03/anautumnafternoon1600-5-1200x675.jpg",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:4suF2SJP2h",
@@ -899,7 +734,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/the-scout",
       "description": "USA | 2025 | 89 min. | Paula Gonz\u00e1lez-Nasser \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/screamplay-4k-restoration/|2026-10-11T16:30:00",
@@ -914,7 +749,7 @@
       "url": "https://nwfilmforum.org/films/screamplay-4k-restoration/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/09/screamplay1600-1-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:obDmgjfqZU",
@@ -929,7 +764,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:DIPrGBJRJQ",
@@ -944,7 +779,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:votF2yvCwl",
@@ -959,7 +794,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/primetime",
       "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:QAokvbVwY4",
@@ -974,7 +809,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/digger",
       "description": "USA | 2026 | 128 min. | Alejandro G. I\u00f1\u00e1rritu \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:pdVjZ45QCn",
@@ -989,7 +824,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/the-scout",
       "description": "USA | 2025 | 89 min. | Paula Gonz\u00e1lez-Nasser \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "baba-yaga:177587",
@@ -1004,7 +839,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/swapmeet-2026-10-11-baba-yaga-seattle-0fdd1e",
       "description": "Swapmeet is a 4-piece band from South Australia composed of Venus O\u2019Broin (guitar, vocals), Joshua Doherty (bass), Maxwell Elphick (guitar, drums, vocals), and Jack Medlyn (guitar, drums, vocals). Having recently caught the ear of American indie label Winspear, the band is readying their debut album and offering a taste of the new material with \u201cI Know!\u201d, a cathartic and buoyant debut single for their new label home. Revved up with gleaming, fuzzy guitars and energetic percussion, the new track blurs jangle pop, shoegaze, and alt-rock with tongue-in-cheek precision. The group met as teenagers in the early 2020s while playing in various projects around the Adelaide music scene and bonded over their love of 90s alternative, citing Pavement and Sonic Youth as early influences. They soon started writing music together and released their debut single in late 2023 and quickly returned with their debut EP, Oxalis, in mid-2024. The EP was well received, earning nods from Rolling Stone Australia and Triple J, and the band was soon moving out of local pub gigs and into big clubs, opening for international touring artists across the whole of Australia, and recently won the Emerging Artist & Best Performance award at SXSW Sydney for their charismatic live show. Swapmeet will make their USA debut this spring at SXSW Austin",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/an-autumn-afternoon/|2026-10-11T19:00:00",
@@ -1019,7 +854,7 @@
       "url": "https://nwfilmforum.org/films/an-autumn-afternoon/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/03/anautumnafternoon1600-5-1200x675.jpg",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:K0xWIaXt8J",
@@ -1034,7 +869,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/screamplay-4k-restoration/|2026-10-11T19:30:00",
@@ -1049,7 +884,7 @@
       "url": "https://nwfilmforum.org/films/screamplay-4k-restoration/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/09/screamplay1600-1-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:MXrdQvkpxV",
@@ -1064,7 +899,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:8c7mTp3oSn",
@@ -1079,7 +914,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:yTGWAq6xMl",
@@ -1094,7 +929,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/primetime",
       "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:plE2j9b9HF",
@@ -1109,7 +944,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "astir:3331103-2026-10-12",
@@ -1124,7 +959,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "",
       "image_url": "https://static.spotapps.co/spots/6a/84c4b14f464b5e867f4f09f1337d82/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "siff:9WE2YUelBy",
@@ -1139,7 +974,7 @@
       "url": "https://www.siff.net/programs-and-events/siff-movie-club/ginger-snaps",
       "description": "Canada | 2000 | 108 min. | John Fawcett \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:3nx1CuRJGw",
@@ -1154,7 +989,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/joybubbles",
       "description": "USA | 2026 | Rachael J.  Morrison \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/the-history-of-concrete/|2026-10-12T18:30:00",
@@ -1169,7 +1004,7 @@
       "url": "https://nwfilmforum.org/films/the-history-of-concrete/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/08/historyofconcrete1600-1-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/an-autumn-afternoon/|2026-10-12T19:00:00",
@@ -1184,7 +1019,7 @@
       "url": "https://nwfilmforum.org/films/an-autumn-afternoon/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/03/anautumnafternoon1600-5-1200x675.jpg",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:ARQmG1yqiN",
@@ -1199,7 +1034,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:ipeT68MJFq",
@@ -1214,7 +1049,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/banned/|10/13/2026",
@@ -1244,7 +1079,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:MStKBDhCaf",
@@ -1259,7 +1094,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/primetime",
       "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:eRa8V6gY48",
@@ -1274,7 +1109,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/the-history-of-concrete",
       "description": "USA | 2026 | 101 min.  | John Wilson \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:GS7J98dDoG",
@@ -1289,7 +1124,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "baba-yaga:192174",
@@ -1304,7 +1139,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/paige-fish-2026-10-13-baba-yaga-seattle-cfbeb7",
       "description": "VIP Check in for Meet & Greet is at 5:45PM Paige Fish, the Utah-born songstress from Springville, has captivated audiences with a voice and presence beyond her years. Drawing inspiration from the likes of Stevie Nicks, Norah Jones, Noah Kahan, and Zach Bryan, Paige has been songwriting since childhood, penning tunes and performing long before most artists get their start. She quickly found her footing on social media, capturing hearts and gaining a devoted following. In 2023, she released the standout track \"26 and 24,\" which struck a chord with fans and marked a pivotal moment in her growing career. Since then, she has released three projects, including the fan-favorite \"Baby Blondie\". Paige has become a regular headliner, selling out shows across the country and building a passionate audience with her cinematic pop and country storytelling, which is rooted in deeply personal, diary-inspired lyrics.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/the-history-of-concrete/|2026-10-13T18:30:00",
@@ -1319,7 +1154,7 @@
       "url": "https://nwfilmforum.org/films/the-history-of-concrete/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/08/historyofconcrete1600-1-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "astir:3401443-2026-10-13",
@@ -1334,7 +1169,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every second Tuesday Every second Tuesday of the month, we get together downstairs at a/stir to read original works of art, whether it is an essay, short story, poem or comedy routine. Just bring your stuff, or just listen. Don't worry, our resident writer, former service lead, Jen will start the proceedings to warm you up. 7-9pm. All ages. No cover.",
       "image_url": "https://static.spotapps.co/spots/cb/e86653d8fc4e9e97695d1ba55d97dd/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "siff:i16rjGUSdm",
@@ -1349,7 +1184,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/an-autumn-afternoon/|2026-10-13T19:00:00",
@@ -1364,7 +1199,7 @@
       "url": "https://nwfilmforum.org/films/an-autumn-afternoon/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/03/anautumnafternoon1600-5-1200x675.jpg",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:ZgHydqTjFq",
@@ -1379,7 +1214,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:E95aV2slcO",
@@ -1394,7 +1229,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/primetime",
       "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:g5VpK2iW9a",
@@ -1409,7 +1244,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/digger",
       "description": "USA | 2026 | 128 min. | Alejandro G. I\u00f1\u00e1rritu \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/cascadia-big-band/|10/14/2026",
@@ -1439,7 +1274,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/primetime",
       "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:eI7M7SZBBT",
@@ -1454,7 +1289,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/digger",
       "description": "USA | 2026 | 128 min. | Alejandro G. I\u00f1\u00e1rritu \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:BAJ6AilK3y",
@@ -1469,7 +1304,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:IZjAHFgZD7",
@@ -1484,7 +1319,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "astir:3409197-2026-10-14",
@@ -1499,7 +1334,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "",
       "image_url": "https://static.spotapps.co/spots/3b/1e5a4d167b4f59b054c1bf381a5c2b/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "baba-yaga:166779",
@@ -1514,7 +1349,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/blu-eyes-2026-10-14-baba-yaga-seattle-1c8860",
       "description": "BL\u00dc EYES is a Los Angeles\u2013based alt-pop artist known for transforming raw emotion into cinematic, resonant pop. A self-produced songwriter and vocalist, she bridges the intimate storytelling of Gracie Abrams and Noah Kahan with the melodic precision and polish of Taylor Swift. Her recent singles \u201cTwo People at Once,\u201d \u201cBad Feelings,\u201d \u201cGaslight,\u201d and \u201cDear Anxiety\u201d from her debut album continue to captivate listeners with their unflinching honesty and immersive production, contributing to over 150 million global streams. A multifaceted creative at every level, BL\u00dc EYES writes, produces, and shapes her own sonic world with striking intention. Her ability to translate vulnerability into connection has earned her a rapidly growing global audience and established her as one of the most compelling new voices shaping the next era of authentic pop music. BL\u00dc EYES - SOCIAL LINKS: Instagram: @blueyesmusic Facebook: @blueyesmusic TikTok @blueyesmusic X: @iamblueyesmusic YouTube: @blueyesmusic Website: www.blueyesmusic.com",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:w97krocFMd",
@@ -1529,7 +1364,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/primetime",
       "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:vvOceCdcwv",
@@ -1544,7 +1379,7 @@
       "url": "https://www.siff.net/programs-and-events/scarecrowber-2026/deep-red",
       "description": "Italy | 1975 | 127 min.  | Dario Argento \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/sfcs-10-green-room/|2026-10-14T19:00:00",
@@ -1559,7 +1394,7 @@
       "url": "https://nwfilmforum.org/films/sfcs-10-green-room/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/03/greenroom1600-4-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "nwff:https://nwfilmforum.org/events/seattle-film-societys-film-discussion-group/|2026-10-14T19:00:00",
@@ -1574,7 +1409,7 @@
       "url": "https://nwfilmforum.org/events/seattle-film-societys-film-discussion-group/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/08/sfs_filmdiscussion1600-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:ilcJ5Sxb5H",
@@ -1589,7 +1424,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:Enp64v38T5",
@@ -1604,7 +1439,7 @@
       "url": "https://www.siff.net/programs-and-events/nouvelles-femmes/le-bonheur-(happiness)",
       "description": "France | 1965 | 80 min.  | Agn\u00e8s Varda \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:7MyqXuNjPq",
@@ -1619,7 +1454,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/the-history-of-concrete",
       "description": "USA | 2026 | 101 min.  | John Wilson \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/chronovisor/|2026-10-14T19:30:00",
@@ -1634,7 +1469,7 @@
       "url": "https://nwfilmforum.org/films/chronovisor/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/08/chronovisor1600-1-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "art-table:Live Music-2026-10-14",
@@ -1649,7 +1484,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-10-14",
@@ -1664,7 +1499,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/black-dogs/|10/15/2026",
@@ -1694,7 +1529,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/digger",
       "description": "USA | 2026 | 128 min. | Alejandro G. I\u00f1\u00e1rritu \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:pdPLZEDC6d",
@@ -1709,7 +1544,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:ipFNHLCtYy",
@@ -1724,7 +1559,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/primetime",
       "description": "USA | 2026 | 110 min. | Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:tHQJ7G6h53",
@@ -1739,7 +1574,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "astir:3451789-2026-10-15",
@@ -1754,7 +1589,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Pitch a Friend, over 40 edition.... Gay, lesbian or straight real adults (over 40 years of age) get pitched. About damn time. Join Us for some Fun, Connections & Laughter!Whether you're pitching a friend or just here to mingle, this event is all about meeting amazing singles and having a fantastic time.\ud83c\udfa4 Want to pitch your friend?Sign up in advance. Pitch spots are limited. Prepare a quick, light-hearted presentation about: -What makes your friend awesome -What they're looking for in a partner Presenters get a complimentary drink at the event!\ud83d\udcac Just want to attend and mingle?No problem \u2013 come join the fun! Bring your friends, relax, and enjoy meeting other amazing singles. It's all about making new connections and having a great time.\ud83e\udd42 After the Presentations:Stick around for ourSingle Mingle Mixer!This is your chance to chat, make connections, and maybe see if sparks fly. https://www.pitch-a-friend.com/seattle",
       "image_url": "https://static.spotapps.co/spots/97/29fbdf3c9847a0a9e8c23f32229d43/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/stuff-2026-understanding-myself-as-an-amphibian-objectionable-fruit/|2026-10-15T18:30:00",
@@ -1769,7 +1604,7 @@
       "url": "https://nwfilmforum.org/films/stuff-2026-understanding-myself-as-an-amphibian-objectionable-fruit/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/09/understandingamphibian1600-1-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "baba-yaga:199756",
@@ -1784,7 +1619,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/diminished-men-with-fungal-abyss-the-sheen-and-nosretep-2026-10-15-baba-yaga-seattle-cd5fd1",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:PxCaq8rbON",
@@ -1799,7 +1634,7 @@
       "url": "https://www.siff.net/programs-and-events/the-open-road/the-hitcher",
       "description": "USA | 1986 | 97 min.  | Robert Harmon \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "nwff:https://nwfilmforum.org/films/seattle-film-society-in-focus-tyler-michael-james/|2026-10-15T19:00:00",
@@ -1814,7 +1649,7 @@
       "url": "https://nwfilmforum.org/films/seattle-film-society-in-focus-tyler-michael-james/",
       "description": "",
       "image_url": "https://nwfilmforum.org/wp-content/uploads/2026/09/1600x900-Web-Header-1200x675.png",
-      "updated_at": "2026-10-09T23:05:48.230564"
+      "updated_at": "2026-10-10T05:05:47.236118"
     },
     {
       "id": "siff:p0jUQwQeCY",
@@ -1829,7 +1664,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/naza",
       "description": "United Kingdom | 2026 | 80 min. | Yuval Abraham, Rachel Szor \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:6QInJ3Wj9p",
@@ -1844,7 +1679,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/lady",
       "description": "United Kingdom | 2025 | 95 min. | Samuel Abrahams \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:vDDJCK8UMn",
@@ -1859,7 +1694,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/bebe-stockwell/|10/16/2026",
@@ -1889,7 +1724,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:vcSJmlnX6P",
@@ -1904,7 +1739,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:Vrh8EPkt6l",
@@ -1919,7 +1754,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:IOtai67XCB",
@@ -1934,7 +1769,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "baba-yaga:188127",
@@ -1949,7 +1784,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/rin-2026-10-16-baba-yaga-seattle-9126b4",
       "description": "From writing love songs in her bedroom to posting lo-fi videos online, Rin embodies the spirit of the modern-day bedroom songwriter - a true digital native with a raw, heartfelt voice. A natural singer since childhood, Rin picked up the guitar during the pandemic, learning to play her favorite songs. That curiosity soon evolved into a desire to write her own. Her first full-length project, fawn (2025), brings together ten songs that explore vulnerability, growth, and the search for confidence. The record carries the intimacy of her early demos while opening into a richer sound, balancing quiet reflections with moments of strength. At its heart, fawn is Rin learning to let herself be seen - turning private thoughts into songs that feel both personal and universal.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:ABjs9RVuW7",
@@ -1964,7 +1799,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:wGF29cZmJ1",
@@ -1979,7 +1814,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "art-table:Live Music-2026-10-16",
@@ -1994,7 +1829,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "astir:3293139-2026-10-16",
@@ -2009,7 +1844,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Tickets here. Doors at 7:30PM, show at 8PM",
       "image_url": "https://static.spotapps.co/spots/30/43cd0644744231b790952dcd65e6df/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/ahee/|10/17/2026",
@@ -2054,7 +1889,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:MHR1TJIUIh",
@@ -2069,7 +1904,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "community-3:16th Annual Video Store Day-2026-10-17",
@@ -2084,7 +1919,7 @@
       "url": "",
       "description": "Presented by Scarecrow Video \u2014 the best video library in the world! Prizes, treats, raffle, great deals and exclusives. Members early access 11am-12pm; open noon until 8pm.",
       "image_url": "/posters/3.jpg",
-      "updated_at": "2026-10-09T23:05:55.507369"
+      "updated_at": "2026-10-10T05:05:51.788067"
     },
     {
       "id": "siff:vWsVgKNHNh",
@@ -2099,7 +1934,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:BHegAjh6lc",
@@ -2114,7 +1949,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:nPa8nceJq4",
@@ -2129,7 +1964,7 @@
       "url": "https://www.siff.net/programs-and-events/andrzej-wajda/ashes-and-diamonds",
       "description": "Poland | 1958 | 100 min.  | Andrzej Wajda \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:AZShk6hYgM",
@@ -2144,7 +1979,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:RlxbljyiHp",
@@ -2159,7 +1994,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:mKxJei5l0r",
@@ -2174,7 +2009,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "astir:3444226-2026-10-17",
@@ -2189,7 +2024,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Hosted by Masih Ahmad, this showcase highlights four local legends of comedy.Get tickets here. Doors for dinner and drinks at 6pm; show at 8.",
       "image_url": "https://static.spotapps.co/spots/78/f7ff7f1854440cb39951f1f9e89e75/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "siff:yDPKKOcKGb",
@@ -2204,7 +2039,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:HDRZZQ2EUL73VFTLV3577C7J",
@@ -2219,7 +2054,7 @@
       "url": "https://thebeacon.film/calendar/movie/begotten",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695935627-tb-begotten.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:xpRNLYPP90",
@@ -2234,7 +2069,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:1G8KBdFfCf",
@@ -2249,7 +2084,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "baba-yaga:161006",
@@ -2264,7 +2099,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/dos-santos-2026-10-17-baba-yaga-seattle-44c456",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "beacon:5KNVGNRWGH3MZ5SSYYMJ7RHK",
@@ -2279,7 +2114,7 @@
       "url": "https://thebeacon.film/calendar/movie/dracula-prisoner-of-frankenstein",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695349519-tb-draculaprisoneroffrankenstein.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/alborosie-shengen-clan/|10/18/2026",
@@ -2324,7 +2159,7 @@
       "url": "https://www.siff.net/programs-and-events/community-screenings/casablanca",
       "description": "USA | 1942 | 102 | Michael Curtiz \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "baba-yaga:201186",
@@ -2339,7 +2174,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/lydian-studio-halloween-showcase-2026-10-18-baba-yaga-seattle-41404a",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:78b1DmKXsX",
@@ -2354,7 +2189,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:Wvck5T0chN",
@@ -2369,7 +2204,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:Jk5n9ov1yY",
@@ -2384,7 +2219,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:OZsw3dAqc0",
@@ -2399,7 +2234,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:0KSpN0cWOf",
@@ -2414,7 +2249,7 @@
       "url": "https://www.siff.net/programs-and-events/andrzej-wajda/everything-for-sale",
       "description": "Poland | 1969 | 99 min.  | Andrzej Wajda \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:3LPGDZXSDXVQ4YWASUDN443O",
@@ -2429,7 +2264,7 @@
       "url": "https://thebeacon.film/calendar/movie/isle-of-the-dead",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695643101-tb-isleofthedead.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:HLiQRQDFl8",
@@ -2444,7 +2279,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:OxhU5asXo1",
@@ -2459,7 +2294,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:4ED5NJRDXKOHNLZBM4V7WG3H",
@@ -2474,7 +2309,7 @@
       "url": "https://thebeacon.film/calendar/movie/universal-monster-mash-double-feature",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789694968693-tb-universalmonstermash.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:kD3GFVZppP",
@@ -2489,7 +2324,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:4sLWhmtNKA",
@@ -2504,7 +2339,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/capturing-bigfoot",
       "description": "USA | 2026 | 103 min. | Marq Evans \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:lFOjfVXEmd",
@@ -2519,7 +2354,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:FKAYE6iwER",
@@ -2534,7 +2369,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:gZaVdygI9Y",
@@ -2549,7 +2384,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:WmE8cIArPP",
@@ -2564,7 +2399,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:WPNE7XFWYJ5QNOFB54HV53WN",
@@ -2579,7 +2414,7 @@
       "url": "https://thebeacon.film/calendar/movie/isle-of-the-dead",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695643101-tb-isleofthedead.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:QZoGOqJPm1",
@@ -2594,7 +2429,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "baba-yaga:200631",
@@ -2609,7 +2444,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/disposable-parts-2026-10-19-baba-yaga-seattle-759810",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:FOZVTRtQeC",
@@ -2624,7 +2459,7 @@
       "url": "https://www.siff.net/programs-and-events/the-open-road/wagon-master",
       "description": "USA | 1950 | 86 min.  | John Ford \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:G1TePUjGsc",
@@ -2639,7 +2474,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:6fMA1ZyP4i",
@@ -2654,7 +2489,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:iuGJDGxySl",
@@ -2669,7 +2504,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:UDODQDHCC5HJMV5F26L4IJZB",
@@ -2684,7 +2519,7 @@
       "url": "https://thebeacon.film/calendar/movie/begotten",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695935627-tb-begotten.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "lindas:Trans Night-2026-10-19",
@@ -2699,7 +2534,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.666167"
+      "updated_at": "2026-10-10T05:05:47.681261"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/bear-ghost/|10/20/2026",
@@ -2729,7 +2564,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:3UUWOXHOA7U7OIIPDG4RTUXN",
@@ -2744,7 +2579,7 @@
       "url": "https://thebeacon.film/calendar/movie/begotten",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695935627-tb-begotten.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:ab6SkDrqIp",
@@ -2759,7 +2594,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "astir:3459804-2026-10-20",
@@ -2774,7 +2609,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "More information coming soon.",
       "image_url": "https://static.spotapps.co/spots/75/8044090db64a0c8ce4f431d430638f/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "siff:1ZV6hdCZpl",
@@ -2789,7 +2624,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "baba-yaga:157572",
@@ -2804,7 +2639,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/rezn-2026-10-20-baba-yaga-seattle-0b50d5",
       "description": "Over the last decade, Chicago quartet REZN have carved out a unique place in the landscapeof heavy music, chiseling away at the crude formations of the topography, mining the mostconcentrated metallic ore from the dirt, and shaping it all into somethingmonumental, imposing,and divine. While REZN has always fused seismic riffs with effortless beauty and grandeur, theirshifting strategies for wielding that polarity have involved varied compositional and stylisticdecisions, most notably the light-and-dark contrast of companion albumsSolace(2023) andBurden(2024). But with their newest full-length offering,Cycles in the Infinite Dream, REZNmasterfully harness the oppressive weight of their full sonic armory to celestial melodies andsublime synesthesia-inducing atmospherics in a manner so seamless it feels otherworldly, as ifoccupying a liminal space between two realities.While REZN traffic in the unbridled realms of metal and untethered reaches of psychedelia, theirlatest release showcases a bandworking with discipline and intention, even when thoseintentions are rendered to be purposefully cryptic. As the album title implies,Cycles in theInfinite Dreamexplores the nexus of our waking and nocturnal worlds. \u201cWe moved towards thedream and subconscious state as a lyrical concept and melodic theme,\u201d the band explains. \u201cThepseudo-waking state is a reflection of a second existence\u2014something that you can flee to or beimprisoned by.\u201d Much like the subconscious-guided work of David Lynch,Cycles in the InfiniteDreamexists as parallax between the artist and the audience, creating an obscured anddistorted space that is both familiar and alien, like a corridor into our past where we recognizeour surroundings but somehow still feel lost within its warped geometry.REZN have long operated\u2014and thrived\u2014in the subterranean realm of music heads who cravethe aural equivalent of altered states. And withCycles",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:xHZZmWZPYv",
@@ -2819,7 +2654,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:YW97DRaR2e",
@@ -2834,7 +2669,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:VT4Y8B8EuK",
@@ -2849,7 +2684,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/matchstick-productions-presents-the-way-out-2026-ski-film",
       "description": "USA | 2026 | 60 min. \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:XM5BZFTABAUEVPVGANX3WLP3",
@@ -2864,7 +2699,7 @@
       "url": "https://thebeacon.film/calendar/movie/flying-embers-and-a-fortress",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789696073591-tb-flyingembers.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:Uw9lbOc6RO",
@@ -2879,7 +2714,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:SSkVwe0YFn",
@@ -2894,7 +2729,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:OWJRU4VHFH62VZ2OHJU3JLG7",
@@ -2909,7 +2744,7 @@
       "url": "https://thebeacon.film/calendar/movie/isle-of-the-dead",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695643101-tb-isleofthedead.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:eBo7M3fgXZ",
@@ -2924,7 +2759,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "astir:3409200-2026-10-21",
@@ -2939,7 +2774,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "",
       "image_url": "https://static.spotapps.co/spots/09/d0c83ac98c44df850d378511cc0799/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "siff:Op5mu3Pcsw",
@@ -2954,7 +2789,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:sM1te1EqLd",
@@ -2969,7 +2804,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:YjQQbUh29l",
@@ -2984,7 +2819,7 @@
       "url": "https://www.siff.net/programs-and-events/scarecrowber-2026/ringu",
       "description": "Japan | 1998 | 96 min. | Hideo Nakata \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:upG47sSHwC",
@@ -2999,7 +2834,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:PSELB15nrV",
@@ -3014,7 +2849,7 @@
       "url": "https://www.siff.net/programs-and-events/nouvelles-femmes/band-of-outsiders",
       "description": "France | 1964 | 95 min.  | Jean-Luc Godard \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:VMRAT33ETP27GFFNGWU3EJSX",
@@ -3029,7 +2864,7 @@
       "url": "https://thebeacon.film/calendar/movie/universal-monster-mash-double-feature",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789694968693-tb-universalmonstermash.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "art-table:Live Music-2026-10-21",
@@ -3044,7 +2879,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-10-21",
@@ -3059,7 +2894,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/back-then/|10/22/2026",
@@ -3089,7 +2924,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:Kgcjx2YI5y",
@@ -3104,7 +2939,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:FHAHPVWFSBDYVK7DYKIOINMY",
@@ -3119,7 +2954,7 @@
       "url": "https://thebeacon.film/calendar/movie/flying-embers-and-a-fortress",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789696073591-tb-flyingembers.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:nfIGLiC025",
@@ -3134,7 +2969,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:Ax9t1stHXm",
@@ -3149,7 +2984,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/glen-canyon-institutes-what-the-river-knows",
       "description": "USA | 2025 | 34 min. (105 min. full event)  | Will Buckley and Diego Riley \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:eiuUYacfjY",
@@ -3164,7 +2999,7 @@
       "url": "https://www.siff.net/programs-and-events/the-open-road/wagon-master",
       "description": "USA | 1950 | 86 min.  | John Ford \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:xnlFM4csRC",
@@ -3179,7 +3014,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:FbYL00q0ZO",
@@ -3194,7 +3029,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/ken-russells-the-devils",
       "description": "United Kingdom | 1971 | 114 mins. | Ken Russell \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:h8awAPD6B9",
@@ -3209,7 +3044,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:X65LA63HTP6WDSZHGV7VBJSE",
@@ -3224,7 +3059,7 @@
       "url": "https://thebeacon.film/calendar/movie/rider-of-the-skulls",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695116859-tb-rideroftheskulls.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/carmen-staaf-and-elsa-nilsson/|10/23/2026",
@@ -3254,7 +3089,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:53R4RFWabV",
@@ -3269,7 +3104,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/seattle-polish-film-festival-2026/gsf-shorts",
       "description": "Poland | 2025 | 75 min. \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:EeEU13bZwt",
@@ -3284,7 +3119,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:2h0QRnWDrJ",
@@ -3299,7 +3134,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:DWx1sK9X4p",
@@ -3314,7 +3149,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/seattle-polish-film-festival-2026/the-altar-boys",
       "description": "Poland | 2025 | 110 min.  | Piotr Domalewski \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:gHSmgOueGk",
@@ -3329,7 +3164,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/bernsteins-wall",
       "description": "USA | 2021 | 100 min.  | Douglas Tirola \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:PHxv7VMA38",
@@ -3344,7 +3179,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:UUBVIU6SZFDM5QTVK3UQDHRT",
@@ -3359,7 +3194,7 @@
       "url": "https://thebeacon.film/calendar/movie/the-vanishing",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695434021-tb-vanishing.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:IsIFfJt3hp",
@@ -3374,7 +3209,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:1BGT9XNcH5",
@@ -3389,7 +3224,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "art-table:Live Music-2026-10-23",
@@ -3404,7 +3239,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "baba-yaga:198802",
@@ -3419,7 +3254,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/noches-de-rock-en-espanol-halloween-edition-2026-10-23-baba-yaga-seattle-0baac5",
       "description": "NOCHES DE ROCK EN ESPA\u00d1OL \u2014 Halloween Edition Noches de Rock en Espa\u00f1ol is a dance party and cultural project created by Argentine music curator, journalist, and radio host Albina Cabrera, currently the Head of Spanish-Language and Latin American Music Programming at KEXP. Born in Seattle with the goal of bringing generations together through the music that connects us, the event has become one of the city\u2019s few spaces fully dedicated to celebrating the diversity, history, and ongoing evolution of Latin American rock music. On the first Friday of every month, Noches de Rock en Espa\u00f1ol takes audiences on a journey through the sounds, scenes, countries, and generations of Latin America and Spain, blending foundational classics with exciting new artists who continue to push the genre forward. From indie rock and post-punk to darkwave, garage rock, punk, alternative rock, and some of the most innovative contemporary sounds emerging from Latin America today, the dance floor becomes a gathering place for both lifelong fans and new listeners alike. After a successful residency that welcomed hundreds of attendees over the past two years, Noches de Rock en Espa\u00f1ol arrives at Baba Yaga with an expanded vision\u2014one that continues to grow through guest DJs, special performances, and live appearances by artists from across Latin America. Since 2025, the project has also featured resident DJ Alex (@ccstencil), founder of Seattle\u2019s beloved Clandestino Seattle party, who joins Albina each month behind the decks. Every edition also welcomes guest DJs specializing in different genres and musical movements, ensuring a unique experience every time. For this special Halloween edition, Noches de Rock en Espa\u00f1ol welcomes Mexican darkwave and post-punk project CALAVERX for a live performance at Baba Yaga. Blending post-punk energy with electronic textures and darker sounds, CALAVERX joins the night for a special live set alongside Noches de Rock en Espa\u00f1ol\u2019s DJs. More Djs and vendors TBA.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:fdtTpxwyFK",
@@ -3434,7 +3269,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/seattle-polish-film-festival-2026/erupcja",
       "description": "Poland | 2026 | 71 min. | Pete Ohs \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:4NUY2KCQPXSEDOLVX7563VIN",
@@ -3449,7 +3284,7 @@
       "url": "https://thebeacon.film/calendar/movie/secs-fest-presents-driller",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789696214716-tb-driller.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/2026-monsta-x-world-tour/|10/24/2026",
@@ -3479,7 +3314,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:wQ2pRjGjGR",
@@ -3494,7 +3329,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:RB1dmgQRnb",
@@ -3509,7 +3344,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/bernsteins-wall",
       "description": "USA | 2021 | 100 min.  | Douglas Tirola \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:fEsCKxaCuI",
@@ -3524,7 +3359,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:VuosqmQKZ8",
@@ -3539,7 +3374,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:yx4n4o7Ggs",
@@ -3554,7 +3389,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/seattle-polish-film-festival-2026/brother",
       "description": "Poland | 2025 | 100 min. | Maciej Sobieszcza\u0144ski \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:l4u11PV7Ru",
@@ -3569,7 +3404,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/bernsteins-wall",
       "description": "USA | 2021 | 100 min.  | Douglas Tirola \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:xPYyicOnQF",
@@ -3584,7 +3419,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:K3R0I9ZCOJ",
@@ -3599,7 +3434,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/seattle-polish-film-festival-2026/heel",
       "description": "Poland | 2026 | 110 min.  | Jan Komasa \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:j2nMR4mbmu",
@@ -3614,7 +3449,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:eGqAkErlgd",
@@ -3629,7 +3464,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:XEjrqUKJo5",
@@ -3644,7 +3479,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/seattle-polish-film-festival-2026/picassos-mermaid",
       "description": "Poland | 2026 | 95 min. | Janusz Zaorski \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "astir:3487743-2026-10-24",
@@ -3659,7 +3494,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "",
       "image_url": "https://static.spotapps.co/spots/6a/84c4b14f464b5e867f4f09f1337d82/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "baba-yaga:186349",
@@ -3674,7 +3509,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/motrik-2026-10-24-baba-yaga-seattle-6d24ae",
       "description": "Portland\u2019s M\u00d8TRIK are \u201cAmerica\u2019s Best Krautrock Band\u201d. Formed in 2012, their live shows have become well known for sprawling sounds and dense clouds of fog emanating from a traffic cone, all pierced by lasers from the eyes of a Unifox. Over the last decade, the group has earned its headliner status at home, performed at Treefort Music Fest, and toured as far as the Deep South. They have shared the stage with artists as diverse as Oh Sees, Drive By Truckers, and Once and Future Band. To date, they have released three full-length albums and assorted e.p.\u2019s on Jealous Butcher Records.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:4XbCQMfm9U",
@@ -3689,7 +3524,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:64O6UF3ZSRDOTWHCFUKYKYUJ",
@@ -3704,7 +3539,7 @@
       "url": "https://thebeacon.film/calendar/movie/the-vanishing",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695434021-tb-vanishing.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:SBP5HVpaMP",
@@ -3719,7 +3554,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/seattle-polish-film-festival-2026/home-sweet-home",
       "description": "Poland | 2025 | 107 min.  | Wojciech Smarzowski \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:kjPQlTJiyd",
@@ -3734,7 +3569,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:7vWqn3T8NY",
@@ -3749,7 +3584,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:DWTMSQMHFRLAMPP7GHK5IZXG",
@@ -3764,7 +3599,7 @@
       "url": "https://thebeacon.film/calendar/movie/vhs-uber-alles-presents",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1790222268643-vhsoct26.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/bigg-ass-truck-i-e/|10/25/2026",
@@ -3794,7 +3629,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/bernsteins-wall",
       "description": "USA | 2021 | 100 min.  | Douglas Tirola \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:sNrbDratrG",
@@ -3809,7 +3644,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:6Nhrcg9e1E",
@@ -3824,7 +3659,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:VUZG1IZfcT",
@@ -3839,7 +3674,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:NRaGJITOCs",
@@ -3854,7 +3689,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/seattle-polish-film-festival-2026/gorky-resort",
       "description": "Poland | 2026 | 113 min.  | \u0141ukasz Palkowski \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:JXFI7YYCCFFFXGSVVVUMMDH2",
@@ -3869,7 +3704,7 @@
       "url": "https://thebeacon.film/calendar/movie/i-walked-with-a-zombie",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695533779-tb-iwalkedwithazombie.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:sm7DFWqgdd",
@@ -3884,7 +3719,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/bernsteins-wall",
       "description": "USA | 2021 | 100 min.  | Douglas Tirola \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:SqXkCIx8ak",
@@ -3899,7 +3734,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:asKpAD2XUp",
@@ -3914,7 +3749,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:xR9x7c8t3r",
@@ -3929,7 +3764,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/seattle-polish-film-festival-2026/larp",
       "description": "Poland | 2025 | 100 min.  | Kordian K\u0105dziela \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:aSJfRq5Twy",
@@ -3944,7 +3779,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:O2JKMGRAZCKWNB2XI3ET54D3",
@@ -3959,7 +3794,7 @@
       "url": "https://thebeacon.film/calendar/movie/landscape-in-the-mist",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789696012656-tb-landscapeinthemist.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:IQrR2cjPAc",
@@ -3974,7 +3809,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/whalefall",
       "description": "USA | 2026 | 106 min. | Brian Duffield \u2014 SIFF Cinema Downtown",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:sbTSJJyWEw",
@@ -3989,7 +3824,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/seattle-polish-film-festival-2026/wild-wild-east",
       "description": "Poland | 2026 | 120 min. | Jan Holubek \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "baba-yaga:186346",
@@ -4004,7 +3839,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/we-are-scientists-2026-10-25-baba-yaga-seattle-30f754",
       "description": "Twenty years of We Are Scientists Celebrating the 20th Anniversary of 'With Love and Squalor' Playing the album in full, plus all the hits.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:8QpPgF7Amd",
@@ -4019,7 +3854,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:o0ABloDqTs",
@@ -4034,7 +3869,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:SQN64HdAEC",
@@ -4049,7 +3884,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:rFytIAls6e",
@@ -4064,7 +3899,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:2EYQJRVNMV6DD4WYYQ7R4ZIK",
@@ -4079,7 +3914,7 @@
       "url": "https://thebeacon.film/calendar/movie/i-walked-with-a-zombie",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695533779-tb-iwalkedwithazombie.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "baba-yaga:173517",
@@ -4094,7 +3929,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/the-tubs-2026-10-26-baba-yaga-seattle-03ff95",
       "description": "Upon arriving in the United States for The Tubs\u2019 first tour of the country, frontman Owen Williams told The New Yorker, \u201cWe\u2019re here to unite the country. We\u2019re gonna come, like, three times. By that point, I think this place will start healing.\u201d Then, joyously, they did just that, piling into a van and criss-crossing the States, bringing their literary, bleary-eyed, world-weary, night-of-your-life highwire act to the masses when it was needed most. Along the way, they signed to Merge Records, who will release The Tubs\u2019 third full-length album, Hard Life, on September 11, 2026. The Tubs have never lacked for ambition \u2014 on Hard Life, theirs is to complicate the Tub-ullar experience. Having perfected their sound across two albums and hundreds of shows, the London- based Celtic jangle boyband \u2014 Williams (vocals, guitar, keyboards, bass), Dan Lucas (guitar), Taylor Stewart (drums), and Max Warren (bass) \u2014 push themselves even further into the shimmering heart of virtuosic indie rock. They\u2019re joined by frequent collaborators Lan McArdle (vocals), George Nicholls (guitar), and Rachel Kenedy (keyboards), all of whom have orbited various Tubs and Gob Nation-adjacent efforts dating back to Joanna Gruesome, but the secret to Hard Life\u2019s lushness is the addition of fiddle player Chris Haigh, an instructor and session musician who left an indelible mark on British pop on Steps\u2019 \u201c5, 6, 7, 8.\u201d",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:l13MOFLeUZ",
@@ -4109,7 +3944,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:ekbxeaHxPg",
@@ -4124,7 +3959,7 @@
       "url": "https://www.siff.net/programs-and-events/the-open-road/the-passenger",
       "description": "Italy | 1975 | 126 min.  | Michelangelo Antonioni \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:RIIKUW35YMRXKVZJYDN7Q4J4",
@@ -4139,7 +3974,7 @@
       "url": "https://thebeacon.film/calendar/movie/necropolis",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789694556959-tb-necropolis.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:RbPPNNq6Ht",
@@ -4154,7 +3989,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/bigtooth/|10/27/2026",
@@ -4184,7 +4019,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:v6QIpKX2Mo",
@@ -4199,7 +4034,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:6RYC342RMXVZSHINMMCCEKPG",
@@ -4214,7 +4049,7 @@
       "url": "https://thebeacon.film/calendar/movie/necropolis",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789694556959-tb-necropolis.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "astir:3409201-2026-10-27",
@@ -4229,7 +4064,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "21+. No Cover. Live model drawing. WE provide the supplies, you provide the talent. Every LAST Tuesday of the month.",
       "image_url": "https://static.spotapps.co/spots/67/f676f5a0234ebf882d14d7f1d47c6a/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "baba-yaga:166399",
@@ -4244,7 +4079,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/she-s-green-2026-10-27-baba-yaga-seattle-1b6ce3",
       "description": "Minneapolis band she\u2019s green describe themselves as \u201cmoss music\u201d. Inspired as much by J.R.R. Tolkien and Hayao Miyazaki as by Slowdive and the Cocteau Twins, the band \u2014 consisting of Liam Armstrong, Zofia Smith, Raines Lucas, Kevin Seebeck and Teddy Nordvold \u2014 aim to create their own musical and visual world defined by dreamy fantasy, emotional openness and sonic depth. In 2023 she\u2019s green released their debut EP, Wisteria, which included the viral hit \u201cMandy,\u201d and in 2025 they released the follow-up EP, Chrysalis. It builds on the shimmering shoegaze and dream-pop of Wisteria, with ever more irresistible melodies and deeper songcraft. \u201cWe wanted to expand the scope of what we did with the first EP, and see how far we could push either side of the music \u2014 whether it\u2019s harsh and jarring or it\u2019s inviting and warm,\u201d Armstrong says. And as they win over fans everywhere they go with their authentic, loving approach to their sound, it\u2019s clear that this huge year for she\u2019s green is only the beginning.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "astir:3487805-2026-10-27",
@@ -4259,7 +4094,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every last Tuesday We provide the live models and art tools; you provide the closet Picasso in you. Downstairs at a/stir. 21+. no cover.",
       "image_url": "https://static.spotapps.co/spots/72/8dd2efdd9c4887af08f0e50cbfb99b/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "siff:u7G2ic3Wir",
@@ -4274,7 +4109,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:ALU53IYXHLYUK6PMWMGR2MDQ",
@@ -4289,7 +4124,7 @@
       "url": "https://thebeacon.film/calendar/movie/tv-party-doomed-occult-detectives",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789694760678-tb-occultdetectives.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:H1U2LGSmjb",
@@ -4304,7 +4139,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/blitzkid/|10/28/2026",
@@ -4334,7 +4169,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Because life is better with chocolate!",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "siff:IVMgQn2By1",
@@ -4349,7 +4184,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:rUoQQqyfAm",
@@ -4364,7 +4199,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:ZAH6KVYYM3K4AUNBEQGFYSNL",
@@ -4379,7 +4214,7 @@
       "url": "https://thebeacon.film/calendar/movie/i-walked-with-a-zombie",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695533779-tb-iwalkedwithazombie.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "baba-yaga:192090",
@@ -4394,7 +4229,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/the-haunt-2026-10-28-baba-yaga-seattle-33dfb5",
       "description": "The Haunt is a South Florida-based alternative rock band led by siblings Anastasia Grace Haunt (vocals) and Maxamillion Haunt (guitar). Blending modern rock, industrial influences, and dark pop melodies, the band has built a passionate following through emotionally charged songwriting and high-energy live performances. Following the release of their debut album New Addiction , The Haunt has toured alongside artists including Palaye Royale , The HU , The Struts , and Filter , establishing themselves as one of alternative rock's fastest-rising acts.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:9DhXobTwDt",
@@ -4409,7 +4244,7 @@
       "url": "https://www.siff.net/programs-and-events/scarecrowber-2026/invasion-of-the-body-snatchers",
       "description": "USA | 1978 | 115 min. | Philip Kaufman \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:HK7dlip3HJ",
@@ -4424,7 +4259,7 @@
       "url": "https://www.siff.net/programs-and-events/nouvelles-femmes/stolen-kisses",
       "description": "France | 1968 | 91 min. | Fran\u00e7ois Truffaut \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:RTLGZZXSCPSMIPVTZYCH665F",
@@ -4439,7 +4274,7 @@
       "url": "https://thebeacon.film/calendar/movie/dracula-of-exarcheia",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789694463881-tb-draculaofexarcheia.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "art-table:Live Music-2026-10-28",
@@ -4454,7 +4289,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-10-28",
@@ -4469,7 +4304,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "siff:M66HloD0UC",
@@ -4484,7 +4319,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/back-to-black/|10/29/2026",
@@ -4529,7 +4364,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:bqkKndj1mx",
@@ -4544,7 +4379,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:J7UR547QEOE4HKQCZ73RF2AN",
@@ -4559,7 +4394,7 @@
       "url": "https://thebeacon.film/calendar/movie/dracula-of-exarcheia",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789694463881-tb-draculaofexarcheia.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:4kWOoYmfS7",
@@ -4574,7 +4409,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/you-can-see-everything",
       "description": "USA | 2026 | 175 min. | Nathan Fielder, Lance Oppenheim \u2014 SIFF Cinema Uptown House 3",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "baba-yaga:173513",
@@ -4589,7 +4424,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/frankie-and-the-witch-fingers-2026-10-29-baba-yaga-seattle-17a299",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "siff:SFlwuShUal",
@@ -4604,7 +4439,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/cat-vid-fest-26",
       "description": "2025 | 70 min. \u2014 SIFF Cinema Uptown House 1",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "siff:tuSLgkjmTR",
@@ -4619,7 +4454,7 @@
       "url": "https://www.siff.net/programs-and-events/the-open-road/the-passenger",
       "description": "Italy | 1975 | 126 min.  | Michelangelo Antonioni \u2014 SIFF Film Center",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "beacon:YLXBFPLLRAJRPCO4GC7JB4QA",
@@ -4634,7 +4469,7 @@
       "url": "https://thebeacon.film/calendar/movie/idle-hands",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1790029813154-tb-idlehands.png",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "siff:8d0LL4Jw2l",
@@ -4649,7 +4484,7 @@
       "url": "https://www.siff.net/cinema/in-theaters/wicker",
       "description": "USA | 2026 | 105 min.  | Alex Huston Fischer, Eleanor Wilson \u2014 SIFF Cinema Uptown House 2",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:47.452688"
+      "updated_at": "2026-10-10T05:05:46.742115"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/boo-seattle/|10/30/2026 through 10/31/2026",
@@ -4667,6 +4502,21 @@
       "updated_at": "2026-10-09T23:05:55.449159"
     },
     {
+      "id": "siff:9Sifmjwjyg",
+      "venue_id": "siff",
+      "venue_name": "SIFF",
+      "category_id": "movies",
+      "category_name": "Movies",
+      "color_slot": 3,
+      "title": "Land of the Dead: it's for the gays",
+      "start_dt": "2026-10-30T18:45:00",
+      "end_dt": "2026-10-30T20:45:00",
+      "url": "https://www.siff.net/cinema/in-theaters/land-of-the-dead-its-for-the-gays",
+      "description": "USA | 2026 | film: 16 min.; event: 120 min.  | Hana Hahn \u2014 SIFF Film Center",
+      "image_url": null,
+      "updated_at": "2026-10-10T05:05:46.742115"
+    },
+    {
       "id": "baba-yaga:173514",
       "venue_id": "baba-yaga",
       "venue_name": "Baba Yaga",
@@ -4679,7 +4529,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/frankie-and-the-witch-fingers-2026-10-30-baba-yaga-seattle-9049c8",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "beacon:PV4SV77N5UHHYNC5MDTZOW55",
@@ -4694,7 +4544,7 @@
       "url": "https://thebeacon.film/calendar/movie/next-of-kin",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1790029558553-tb-nextofkin.png",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "art-table:Live Music-2026-10-30",
@@ -4709,7 +4559,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "beacon:TBJJ3BEICY6MARFAAOGNPGCF",
@@ -4724,7 +4574,7 @@
       "url": "https://thebeacon.film/calendar/movie/spookies",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789694661339-tb-spookies.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/a-special-tribute-to-dr-ralph-stanley/|10/31/2026",
@@ -4799,7 +4649,7 @@
       "url": "https://thebeacon.film/calendar/movie/mad-monster-party",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695215455-tb-madmonsterparty.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "baba-yaga:173515",
@@ -4814,7 +4664,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/frankie-and-the-witch-fingers-2026-10-31-baba-yaga-seattle-112abf",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "beacon:SKLNKIDWXYAJIWODKS2XYEQX",
@@ -4829,7 +4679,7 @@
       "url": "https://thebeacon.film/calendar/movie/five-minutes-to-die",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789698242210-tb-fiveminutestodie.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/bryson-tiller/|11/1/2026",
@@ -4859,7 +4709,7 @@
       "url": "https://thebeacon.film/calendar/movie/the-leopard-man",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695841818-tb-leopardman.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "beacon:SB5NFQFPBBH3NYKYNYDJTN3X",
@@ -4874,7 +4724,7 @@
       "url": "https://thebeacon.film/calendar/movie/the-leopard-man",
       "description": "",
       "image_url": "https://v4sbluaw4a7zyg44.public.blob.vercel-storage.com/movies/1789695841818-tb-leopardman.jpg",
-      "updated_at": "2026-10-09T23:05:48.587427"
+      "updated_at": "2026-10-10T05:05:47.582474"
     },
     {
       "id": "lindas:Trans Night-2026-11-02",
@@ -4889,7 +4739,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.666167"
+      "updated_at": "2026-10-10T05:05:47.681261"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/bahamas/|11/3/2026",
@@ -4934,7 +4784,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/ian-sweet-2026-11-03-baba-yaga-seattle-bc39ad",
       "description": "Since the release of her debut album Shapeshifter in 2016, New York based songwriter Jilian Medford \u2013 better known as IAN SWEET , has worked vigorously towards reinvention with each album. From the rocking rush of Crush Crusher (2018) into the emotional depths of Show Me How You Disappear (2021), gradually rising to the surface with the sparkling pop profundity of SUCKER (2023), Medford\u2019s singular voice has only grown stronger. As IAN SWEET prepares for an exciting new chapter in her decade-strong discography, 2026 promises to be Medford's most realized songwriting era to date. IAN SWEET\u2019s music has been streamed millions of times worldwide and has been praised by the likes of The FADER, KEXP, The New York Times, NPR Music, Pitchfork, Rolling Stone, Stereogum, and elsewhere.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "astir:3515679-2026-11-03",
@@ -4949,7 +4799,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every first Tuesday A safe space for Queer people in the Seattle kink community to socialize.",
       "image_url": "https://static.spotapps.co/spots/e7/05d16d464f497899dfbcd0a4ffa672/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "astir:3303404-2026-11-04",
@@ -4964,7 +4814,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Details coming soon.",
       "image_url": "https://static.spotapps.co/spots/a3/862d7914e244b88376e7fbdfc3b65f/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "baba-yaga:197314",
@@ -4979,7 +4829,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/moon-panda-2026-11-04-baba-yaga-seattle-f023c0",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "art-table:Live Music-2026-11-04",
@@ -4994,7 +4844,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-11-04",
@@ -5009,7 +4859,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/akira-tana-and-otonowa/|11/5/2026",
@@ -5039,7 +4889,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/baba-obscura-2026-11-05-baba-yaga-seattle-e2934b",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "astir:3409199-2026-11-05",
@@ -5054,7 +4904,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Opening Night Dinner",
       "image_url": "https://static.spotapps.co/spots/51/fc35759d4a49d5ad16f08e34db599e/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "astir:3291545-2026-11-05",
@@ -5069,7 +4919,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "",
       "image_url": "https://static.spotapps.co/spots/74/ea0d75c33f44a7a09eedb5cde5ce92/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "baba-yaga:201207",
@@ -5084,7 +4934,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/baba-obscura-2026-11-06-baba-yaga-seattle-e10d4b",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "art-table:Live Music-2026-11-06",
@@ -5099,7 +4949,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/festal-diwali-lights-of-india/|11/7/2026",
@@ -5129,7 +4979,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/baba-obscura-2026-11-07-baba-yaga-seattle-1df10e",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "astir:3303917-2026-11-07",
@@ -5144,7 +4994,22 @@
       "url": "https://astirseattle.com/calendar",
       "description": "",
       "image_url": "https://static.spotapps.co/spots/ee/b8f2f112a94b7797b791cb92ad810b/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
+    },
+    {
+      "id": "baba-yaga:201209",
+      "venue_id": "baba-yaga",
+      "venue_name": "Baba Yaga",
+      "category_id": "music",
+      "category_name": "Music",
+      "color_slot": 1,
+      "title": "Baba Obscura",
+      "start_dt": "2026-11-08T17:00:00",
+      "end_dt": null,
+      "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/baba-obscura-2026-11-08-baba-yaga-seattle-514ef8",
+      "description": "",
+      "image_url": null,
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "baba-yaga:179858",
@@ -5159,7 +5024,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/black-angels-2026-11-08-showbox-seattle-3f38e4",
       "description": "2026 marks the 20th anniversary of the band\u2019s debut album,Passover(2006), a now-classicrecord that helped define the 21st-century psych revival. To celebrate, The Black Angels-AlexMaas (vocals/bass), Christian Bland (guitar), Stephanie Bailey (drums), Jake Garcia (guitar),and Misti Hamrick (bass) are returning to the road to perform the album in full, along with theirgreatest hits.Formed in Austin, Texas in 2004, The Black Angels have become one of the most influentialbands of the modern psychedelic rock movement. Drawing inspiration from forebears such asSyd Barrett, Roky Erickson, Arthur Lee, and The Velvet Underground, the band crafts a soundthat is both reverent to the genre\u2019s roots and fiercely forward-looking, hypnotic, heavy, political,and immersive.Beyond their own recordings, the band\u2019s impact on the global psychedelic community iscemented by their role as founders of Austin Psych Fest, one of the world\u2019s most importantgatherings for psychedelic, experimental, and underground music.Following albums such asDeath Song(2017) andWilderness of Mirrors(2022) on PartisanRecords, The Black Angels continue to evolve while remaining unmistakably themselves: aband that channels the spirit of classic psychedelia into a dark, modern, and deeply powerfulform.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "astir:3409206-2026-11-10",
@@ -5174,7 +5039,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "21+. No cover. Original works of literature - comedy, essay, poems, short stories, etc. Doors at 6; open mic at 7.",
       "image_url": "https://static.spotapps.co/spots/d9/598676238a4fccbf9ada652dbb5ec1/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "baba-yaga:201187",
@@ -5189,7 +5054,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/james-ivy-2026-11-10-baba-yaga-seattle-5e5887",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "astir:3401443-2026-11-10",
@@ -5204,7 +5069,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every second Tuesday Every second Tuesday of the month, we get together downstairs at a/stir to read original works of art, whether it is an essay, short story, poem or comedy routine. Just bring your stuff, or just listen. Don't worry, our resident writer, former service lead, Jen will start the proceedings to warm you up. 7-9pm. All ages. No cover.",
       "image_url": "https://static.spotapps.co/spots/cb/e86653d8fc4e9e97695d1ba55d97dd/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "art-table:Live Music-2026-11-11",
@@ -5219,7 +5084,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-11-11",
@@ -5234,7 +5099,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "astir:3409209-2026-11-12",
@@ -5249,7 +5114,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Join us for our monthly trivia night Downstairs at a/stir! How is this trivia different than every other trivia night, you ask? Well, over the two hour event, there will definitely be questions on random facts - ranging from pop culture to sportsball to music and movies to history to geography \u2013 but all with an added twist. Borrowing mechanics from classic and modern game shows and board games, we ramp up the fun by twisting each category into something new. Examples include: pushing your luck by earning double points on the categories in which you\u2019re most confident; using real time polling, guess not the right answer but the answer that most people in the room think is correct. The twists will be different each time. We also rely heavily on audio and video clues to make the experience fun and engaging for everyone \u2013 even those that don\u2019t like trivia. Interested? Gather your team of up to six players and compete for bragging rights! 21+. Free to attend/participate.",
       "image_url": "https://static.spotapps.co/spots/ec/82a45def1648abb81f2bd4f1ee9db7/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "baba-yaga:194523",
@@ -5264,7 +5129,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/suzy-sheer-2026-11-12-baba-yaga-seattle-933bac",
       "description": "Suzy Sheer is a band from Vancouver, British Columbia, now split between Montreal and New York. Their music has been described as purity electronics, blisstronica, and post-tronica. Live performances consist of three synthesizers, strobing, high volume, and at least three delay pedals self-oscillating at any given moment. They look to excite, captivate, and inspire. Suzy Sheer is c/o Bronze Standard Listening 2026.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "astir:3528892-2026-11-12",
@@ -5279,7 +5144,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every second Thursday Join us for our monthly trivia night Downstairs at a/stir! How is this trivia different than every other trivia night, you ask? Well, over the two hour event, there will definitely be questions on random facts - ranging from pop culture to sportsball to music and movies to history to geography \u2013 but all with an added twist. Borrowing mechanics from classic and modern game shows and board games, we ramp up the fun by twisting each category into something new. Examples include: pushing your luck by earning double points on the categories in which you\u2019re most confident; using real time polling, guess not the right answer but the answer that most people in the room think is correct. The twists will be different each time. We also rely heavily on audio and video clues to make the experience fun and engaging for everyone \u2013 even those that don\u2019t like trivia. Interested? Gather your team of up to six players and compete for bragging rights! 21+. Free to attend/participate.",
       "image_url": "https://static.spotapps.co/spots/3f/e550ee402142b3b14be7d3a93b8041/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "baba-yaga:172812",
@@ -5294,7 +5159,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/holy-wave-2026-11-13-baba-yaga-seattle-f1e78c",
       "description": "In Ensenada, Mexico, where the Pacific horizon cuts a clean, unwavering line, Holy Wave recorded their latest full-length,i\u2019m DADA, a record that feels both expansive and newly concentrated for the subterranean pop four-piece. Stepping outside the United States was lessa retreat than a shift in perspective, creating distance to recognize a new sound that had been slowly taking shape among them.i\u2019m DADA quickly revealed its character: more propulsive,more candid, and their most structurally deliberate work to date.Working alongside experimental duo Lorelle Meets the Obsolete at their studio El Derrumbe the sessions folded community into the album, though its emotional core had already formed over months of pre-production. Half of Holy Wave is Mexican, with roots in the El Paso border region,so recording in Ensenada felt intuitive and relaxed. Joo Joo Ashworth, mixing engineer and longtime friend, also provided a pivotal presence helping crystallize the album\u2019s rhythmic language and subtly expanding the band\u2019s sound. The songs began reflecting conversations about fatherhood and partnership, breakups and estrangement, the queasy acceleration of AI,and what it means to remain present and principled while the world lurches unpredictably forward.This tension is not announced but absorbed into the music. Holy Wave stretches their familiar sense of woozy atmosphere into something leaner and more direct. There are more loops and samples woven throughout than before, grooves that feel constructed, cyclical, hypnotic. Sometracks drift toward dub\u2019s elastic spaciousness; others pulse with cinematic downtempo gravity.There is a fresh sense of momentum throughout the record, rhythms that pull forward, dream-saturated textures, sheets of fuzz, and softly suspended vocals.\u201cdewey\u2019s dirge\u201d unfolds patiently: hazy guitars bloom, a softened motorik pulse moving steadily beneath. The vocals remain submerged, widening rather than exploding. It feels expansive and reflective, a comedown hymn that trades drama for immersion. \u201ci\u2019m DADA,\u201d by contrast, locks into a lean, circular groove. A tight drum figure, rubbery bassline, and clipped guitar phrase repeat until they begin to feel animate. Lyrically, the song circles the complicated devotion of fatherhood, written in a brief pocket of rare solitude for a parent:Always loving (Try to do what\u2019s right) / Always learning (There\u2019s never enough time).\u201c s33.u.in/HAL\u201d plays like a transmission caught midair, faintly mechanical, immersive without ever fully resolving, capturing the album\u2019s central sensation: the act of trying to communicate clearly through static.If earlier Holy Wave records often felt defined by their sense of drift,i\u2019m DADA feels newly grounded. The album doesn\u2019t abandon immersion; it disciplines it. Grooves settle, repetitions accrue weight, and the music is composed and unshaken amongst its heavier themes. What emerges is not reinvention but asharpening, with Holy Wave sounding less like a band drifting through atmosphere and more like one deliberately shaping it amongst the chaos",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "art-table:Live Music-2026-11-13",
@@ -5309,7 +5174,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/festal-seattle-hmong-new-year/|11/14/2026",
@@ -5339,7 +5204,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Hosted by Masih Ahmad, this showcase highlights four local legends of comedy. Tickets and additional info coming soon. Doors for dinner and drinks at 6:30pm; show at 8.",
       "image_url": "https://static.spotapps.co/spots/c3/0db0188898464d9a46cb642eb1fc04/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "baba-yaga:194105",
@@ -5354,7 +5219,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/massy-ferguson-2026-11-14-baba-yaga-seattle-5e3985",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "lindas:Trans Night-2026-11-16",
@@ -5369,7 +5234,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.666167"
+      "updated_at": "2026-10-10T05:05:47.681261"
     },
     {
       "id": "baba-yaga:193592",
@@ -5384,7 +5249,22 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/pretty-sick-2026-11-17-baba-yaga-seattle-b316ae",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
+    },
+    {
+      "id": "baba-yaga:201218",
+      "venue_id": "baba-yaga",
+      "venue_name": "Baba Yaga",
+      "category_id": "music",
+      "category_name": "Music",
+      "color_slot": 1,
+      "title": "Living With a Bear with babename and Poysenberry",
+      "start_dt": "2026-11-18T19:00:00",
+      "end_dt": null,
+      "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/living-with-a-bear-with-babename-and-poysenberry-2026-11-18-baba-yaga-seattle-030a3b",
+      "description": "",
+      "image_url": null,
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "art-table:Live Music-2026-11-18",
@@ -5399,7 +5279,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-11-18",
@@ -5414,7 +5294,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/seattle-christmas-market/|11/20/2026 through 12/24/2026",
@@ -5444,7 +5324,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/hohyun-2026-11-20-baba-yaga-seattle-dc7908",
       "description": "HOHYUN has always been a one-man show. A talented multi-hyphenate singer, songwriter, producer and director, HOHYUN brings his unique vision to every project he produces. Born in Japan, HOHYUN spent his childhood in Korea before settling in Houston, Texas with his family as an adolescent. Now based in New York, HOHYUN burst down the doors of the industry with his smash hit single \u201cSUNSETBOULEVARD\u201d. The song quickly gained over 12 million streams and earned HOHYUN a dedicated fanbase. Since then, HOHYUN has released his debut album DRAMA., and the visual album Petrichor. Over the past year, HOHYUN has headlined two concerts, opened for JUNNY\u2019s and Sarah Kang\u2019s tours, and released a string of successful singles including \u201ci can\u2019t escape the rain\u201d, \u201cthose three words\u201d, \u201cloml\u201d with Sarah Kang, and \u201clittle things\u201d.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "art-table:Live Music-2026-11-20",
@@ -5459,7 +5339,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "astir:3487805-2026-11-24",
@@ -5474,7 +5354,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every last Tuesday We provide the live models and art tools; you provide the closet Picasso in you. Downstairs at a/stir. 21+. no cover.",
       "image_url": "https://static.spotapps.co/spots/72/8dd2efdd9c4887af08f0e50cbfb99b/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "art-table:Live Music-2026-11-25",
@@ -5489,7 +5369,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-11-25",
@@ -5504,7 +5384,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/peter-pan-goes-wrong/|11/27/2026 through 1/3/2027",
@@ -5534,7 +5414,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "astir:3515679-2026-12-01",
@@ -5549,7 +5429,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every first Tuesday A safe space for Queer people in the Seattle kink community to socialize.",
       "image_url": "https://static.spotapps.co/spots/e7/05d16d464f497899dfbcd0a4ffa672/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "art-table:Live Music-2026-12-02",
@@ -5564,7 +5444,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-12-02",
@@ -5579,7 +5459,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "art-table:Live Music-2026-12-04",
@@ -5594,7 +5474,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "baba-yaga:173373",
@@ -5609,7 +5489,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/l-rain-2026-12-05-baba-yaga-seattle-7c643d",
       "description": "L\u2019Rain is the musical project of multi-instrumentalist, composer, producer and curator Taja Cheek. Operating between the worlds of art and music, and outwards into film, fashion and cultural discourse, Cheek is forging a unique path that transcends disciplines to become one of the most vital and adventurous voices for this warped contemporary moment. Currently the artistic director of Performance Space NY and readying the release of L\u2019Rain\u2019s fourth album, fata morgana, Cheek\u2019s creative impact resonates through her uncompromising commitment to community-building, navigating structural inequality while challenging musical conventions and expectations at every turn. L\u2019Rain is its thrilling manifestation. Raised in Brooklyn and rooted in the city\u2019s vibrant noise community, Cheek\u2019s world was defined by a tension of contrasts from the off \u2014 classically trained yet steeped in DIY iconoclasm, drawn to lush orchestrations and gritty tape loops alike, finding cracks in established forms, taking risks and letting the light pour through. Fascinated by the schisms, feedbacks and distortions that emerge between identity and society at large, Cheek worked closely with collaborators Ben Chapoteau-Katz and Andrew Lappin to hone a sound for L\u2019Rain that is intense, playful, seductive and deeply personal, deconstructing pop tropes with impressionistic flair and subverting the very notion of experimental music within the Black American tradition. Where the \u201cpsychic collage\u201d of self-titled 2017 debut revelled in the collisions of hi- and lo-fi technology, it was 2021\u2019s Fatigue that propelled L\u2019Rain to a wider audience. Gaining critical acclaim from NPR, album of the year in The Wire and #2 in Pitchfork\u2019s best albums of 2021, it set the foundations for 2023 album I Killed Your Dog, which skewed towards \u201890s RnB influences \u2014 a bold, bratty, diabolical anti-break-up record that untangled Cheek\u2019s relationship with femininity and the formal musical conventions that others imposed on her. fata morgana is the daring and ambitious high point of this quadrilogy of L\u2019Rain releases. A heady synthesis of sonic influences, from digi-dub, dream pop and gospel slow jams to tape meditations and crunched thrash metal, it is an album that effervesces in the messiness of life, interrogating power relations while reckoning with self-doubt, self-love and the mirages of belonging and alienation that shape Cheek\u2019s lived experience of the United States today. This capacity to articulate emotional nuance within a wider societal critique has defined Cheek\u2019s curatorial work with major institutions like Creative Time, the High Line, and MoMA PS1, where she reframed the music programme over several years. Challenging the systemic barriers to representation in the arts, Cheek\u2019s accessible and community-centred approach defined her success as guest curator of the 2024 Whitney Biennial and extends to her current role at Performance Space NY, whose programming has shaped cultural, theoretical and political discourse over four decades. In May 2026, L\u2019Rain recorded an ambitious live album and concert film with the full band at Walker Art Centre in Minneapolis. It is the latest iteration of a creative sensibility that seeks out liminal realms across mediums, whether working on specific projects (like recent single with Tasha and Jamila Woods) or broad-scope visions, world-building for change within an industry resistant to new forms. Through the struggle L\u2019Rain persists. Rising to the moment and raising her voice amid the chaos during one of the most divisive eras in American cultural history, Cheek is entering into her power, finding beauty in solidarity and hope in connection \u2014 joyful, radical and ready to evolve once more.",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "lindas:Trans Night-2026-12-07",
@@ -5624,7 +5504,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.666167"
+      "updated_at": "2026-10-10T05:05:47.681261"
     },
     {
       "id": "astir:3401443-2026-12-08",
@@ -5639,7 +5519,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every second Tuesday Every second Tuesday of the month, we get together downstairs at a/stir to read original works of art, whether it is an essay, short story, poem or comedy routine. Just bring your stuff, or just listen. Don't worry, our resident writer, former service lead, Jen will start the proceedings to warm you up. 7-9pm. All ages. No cover.",
       "image_url": "https://static.spotapps.co/spots/cb/e86653d8fc4e9e97695d1ba55d97dd/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "art-table:Live Music-2026-12-09",
@@ -5654,7 +5534,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-12-09",
@@ -5669,7 +5549,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "visitseattle:https://visitseattle.org/events/the-best-christmas-pageant-ever/|12/11/2026 through 12/20/2026",
@@ -5699,7 +5579,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/antwane-tyler-2026-12-11-baba-yaga-seattle-0facbd",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "art-table:Live Music-2026-12-11",
@@ -5714,7 +5594,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "baba-yaga:201190",
@@ -5729,7 +5609,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/josie-edwards-2026-12-12-baba-yaga-seattle-fc3f70",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "art-table:Live Music-2026-12-16",
@@ -5744,7 +5624,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-12-16",
@@ -5759,7 +5639,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "art-table:Live Music-2026-12-18",
@@ -5774,7 +5654,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "lindas:Trans Night-2026-12-21",
@@ -5789,7 +5669,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.666167"
+      "updated_at": "2026-10-10T05:05:47.681261"
     },
     {
       "id": "art-table:Live Music-2026-12-23",
@@ -5804,7 +5684,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-12-23",
@@ -5819,7 +5699,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "art-table:Live Music-2026-12-25",
@@ -5834,7 +5714,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "astir:3487805-2026-12-29",
@@ -5849,7 +5729,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every last Tuesday We provide the live models and art tools; you provide the closet Picasso in you. Downstairs at a/stir. 21+. no cover.",
       "image_url": "https://static.spotapps.co/spots/72/8dd2efdd9c4887af08f0e50cbfb99b/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "art-table:Live Music-2026-12-30",
@@ -5864,7 +5744,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2026-12-30",
@@ -5879,7 +5759,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "art-table:Live Music-2027-01-01",
@@ -5894,7 +5774,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "community-1:PRESENTED By-2027-01-03",
@@ -5909,7 +5789,7 @@
       "url": "",
       "description": "PRESENTED By\nTHE BEST ig\n\nSATURDAY NOON (SS",
       "image_url": "/posters/1.jpg",
-      "updated_at": "2026-10-09T23:05:55.485716"
+      "updated_at": "2026-10-10T05:05:51.765323"
     },
     {
       "id": "lindas:Trans Night-2027-01-04",
@@ -5924,7 +5804,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.666167"
+      "updated_at": "2026-10-10T05:05:47.681261"
     },
     {
       "id": "astir:3515679-2027-01-05",
@@ -5939,7 +5819,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every first Tuesday A safe space for Queer people in the Seattle kink community to socialize.",
       "image_url": "https://static.spotapps.co/spots/e7/05d16d464f497899dfbcd0a4ffa672/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "art-table:Live Music-2027-01-06",
@@ -5954,7 +5834,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2027-01-06",
@@ -5969,7 +5849,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "art-table:Live Music-2027-01-08",
@@ -5984,7 +5864,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "astir:3401443-2027-01-12",
@@ -5999,7 +5879,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every second Tuesday Every second Tuesday of the month, we get together downstairs at a/stir to read original works of art, whether it is an essay, short story, poem or comedy routine. Just bring your stuff, or just listen. Don't worry, our resident writer, former service lead, Jen will start the proceedings to warm you up. 7-9pm. All ages. No cover.",
       "image_url": "https://static.spotapps.co/spots/cb/e86653d8fc4e9e97695d1ba55d97dd/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "art-table:Live Music-2027-01-13",
@@ -6014,7 +5894,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2027-01-13",
@@ -6029,7 +5909,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "art-table:Live Music-2027-01-15",
@@ -6044,7 +5924,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "lindas:Trans Night-2027-01-18",
@@ -6059,7 +5939,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.666167"
+      "updated_at": "2026-10-10T05:05:47.681261"
     },
     {
       "id": "art-table:Live Music-2027-01-20",
@@ -6074,7 +5954,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2027-01-20",
@@ -6089,7 +5969,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "baba-yaga:201191",
@@ -6104,7 +5984,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/tara-clerkin-trio-2027-01-22-baba-yaga-seattle-2ea1d7",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "art-table:Live Music-2027-01-22",
@@ -6119,7 +5999,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "art-table:Live Music-2027-01-27",
@@ -6134,7 +6014,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2027-01-27",
@@ -6149,7 +6029,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "baba-yaga:201193",
@@ -6164,7 +6044,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/twin-fin-2027-01-29-baba-yaga-seattle-6903db",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "art-table:Live Music-2027-01-29",
@@ -6179,7 +6059,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "lindas:Trans Night-2027-02-01",
@@ -6194,7 +6074,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.666167"
+      "updated_at": "2026-10-10T05:05:47.681261"
     },
     {
       "id": "astir:3515679-2027-02-02",
@@ -6209,7 +6089,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every first Tuesday A safe space for Queer people in the Seattle kink community to socialize.",
       "image_url": "https://static.spotapps.co/spots/e7/05d16d464f497899dfbcd0a4ffa672/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "art-table:Live Music-2027-02-03",
@@ -6224,7 +6104,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "monkey-pub:Trans Pool Night-2027-02-03",
@@ -6239,7 +6119,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.695755"
+      "updated_at": "2026-10-10T05:05:47.712637"
     },
     {
       "id": "art-table:Live Music-2027-02-05",
@@ -6254,7 +6134,7 @@
       "url": "",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:48.627167"
+      "updated_at": "2026-10-10T05:05:47.612185"
     },
     {
       "id": "baba-yaga:201194",
@@ -6269,7 +6149,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/elephant-stone-2027-02-06-baba-yaga-seattle-eef582",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "astir:3515679-2027-03-02",
@@ -6284,7 +6164,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every first Tuesday A safe space for Queer people in the Seattle kink community to socialize.",
       "image_url": "https://static.spotapps.co/spots/e7/05d16d464f497899dfbcd0a4ffa672/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     },
     {
       "id": "baba-yaga:198188",
@@ -6299,7 +6179,7 @@
       "url": "https://babayagaseattle.com/seattle-pioneer-square-baba-yaga-events-days#/events/claud-2027-03-03-baba-yaga-seattle-af770f",
       "description": "",
       "image_url": null,
-      "updated_at": "2026-10-09T23:05:38.078073"
+      "updated_at": "2026-10-10T05:05:37.986307"
     },
     {
       "id": "astir:3515679-2027-04-06",
@@ -6314,7 +6194,7 @@
       "url": "https://astirseattle.com/calendar",
       "description": "Monthly on every first Tuesday A safe space for Queer people in the Seattle kink community to socialize.",
       "image_url": "https://static.spotapps.co/spots/e7/05d16d464f497899dfbcd0a4ffa672/w926",
-      "updated_at": "2026-10-09T23:05:38.522680"
+      "updated_at": "2026-10-10T05:05:38.582149"
     }
   ]
 }
